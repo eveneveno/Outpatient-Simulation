@@ -1,6 +1,6 @@
 # Simulation Platform for Hospital Outpatient Scheduling #
 
-### 1. Sample Result ###
+#### 🥥 Sample Result ####
 - Some tunning parameters can be specified via commands
 - For example if you want to change the total horizon from default 720 mins to 600 mins
 
@@ -9,7 +9,7 @@
 ```
 ![demo image](demo.png)
 - Check sample records (`Doctor.csv`, `Blood.csv`, `Scan.csv`) for event lists of each station.
-### 2. Source Code ###
+#### 🥥 Source Code ###
 
 #### 0) Simulation.py ####
 
@@ -94,3 +94,5 @@
 - The Serve_Place has only one API:
   - **`work(self, patient)`**: Just serve the patient, and return him/her.
 
+#### 🍃 Reference Flow Chart ####
+![demo image](flowchart.png)
