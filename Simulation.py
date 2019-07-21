@@ -6,14 +6,7 @@ import numpy as np
 import random
 import pdb
 
-import argparse
-parser = argparse.ArgumentParser(description='Outpatient Simulation')
-parser.add_argument('--p_showup',           type = float, default = 4/5)
-parser.add_argument('--walk_in_rate',       type = float, default = 1/5)
-parser.add_argument('--arrival_rate_blood', type = float, default = 1/15)
-parser.add_argument('--arrival_rate_scan',  type = float, default = 1/25)
-parser.add_argument('--num_node',          type = list,  default = [1,2,3])
-random.seed(H.RAN_SEED)
+from utils import parser
 args = parser.parse_args()
 
 p_showup           = args.p_showup
@@ -23,10 +16,8 @@ arrival_rate_scan  = args.arrival_rate_scan
 num_node           = args.num_node
 
 # trans_prob
-trans_prob = np.array([[0,   0.6, 0.3],
-                        [0.5, 0,   0.5],
-                        [1,   0,   0  ]])
-
+trans_prob = H.trans_prob
+walk_time = H.walk_time
 #################################################
 # Mode MUTE: print some points
 MUTE = False
@@ -126,7 +117,6 @@ class Simulation(object):
 if __name__ == "__main__":
 
     # simuation setting
-    # sim = Simulation([1,2,3], trans_prob, np.zeros(trans_prob.shape))
     sim = Simulation(num_node, trans_prob, np.zeros(trans_prob.shape))
     
     # run simulatinon 

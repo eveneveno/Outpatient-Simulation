@@ -7,6 +7,22 @@ import numpy as np
 import pandas as pd
 import prettytable as pt
 
+# -------------------------------------------------------------------------------------------------------
+import argparse
+parser = argparse.ArgumentParser(description='Outpatient Simulation')
+parser.add_argument('--sim_end',            type = int, default = 720)
+parser.add_argument('--p_showup',           type = float, default = 4/5)
+parser.add_argument('--walk_in_rate',       type = float, default = 1/5)
+parser.add_argument('--arrival_rate_blood', type = float, default = 1/15)
+parser.add_argument('--arrival_rate_scan',  type = float, default = 1/25)
+parser.add_argument('--num_node',          type = list,  default = [1,2,3])
+args = parser.parse_args()
+
+trans_prob = np.array([[0,   0.6, 0.3],
+                        [0.5, 0,   0.5],
+                        [1,   0,   0  ]])
+walk_time = np.zeros(trans_prob.shape
+
 # ----------------------------------------Global Variable------------------------------------------------
 # Random Seed for Reproducing
 RAN_SEED = 2019
@@ -15,7 +31,7 @@ scipy.random.seed(42)
 
 # Global Variable
 DIGITS = 5               # Number of digits of patient ID (eg., '00001')
-SIM_END = 720            # End Time of Simulation (mins)
+SIM_END = args.sim_end   # End Time of Simulation (mins)
 
 NUM_CHECK = 2            # number of check service (blood + scan)
 NUM_STEP = NUM_CHECK + 2 # temp number (plus doctor and revisit) (for result table)
@@ -116,6 +132,7 @@ def write_info(patient, file):
             s += str(j)+"\t"
         s += "\n"
     file.write(s)
+
 # save patient records
 SAVE = [[],[],[]]
 

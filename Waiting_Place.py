@@ -32,10 +32,8 @@ class Waiting_Place(object):
         else:
             patients = lamda_or_patients
             
-        self.all_patients_lineup = []
         self.__add_external(patients)
-        if not H.MUTE:
-            print(H.Red+"Successfully generate patients in {}_Place!".format(H.Name_waiting_place[self.PlaceType]))
+        print(H.Red+"Successfully generate patients in {}_Place!".format(H.Name_waiting_place[self.PlaceType]))
 
     def __generate_external(self, lamda):
         now = 0
@@ -50,7 +48,6 @@ class Waiting_Place(object):
         
     def __add_external(self, patients):
         for patient in patients:
-            self.all_patients_lineup.append(patient)
             self.add_patient(patient)
 
     def next_patient(self):
@@ -74,26 +71,40 @@ class Doctor_Place(object):
             patients = prob_or_patients
         # the WaitingQ in superclass is scheduled     
         self.WaitingQ = queue.PriorityQueue()
+
         # 0 is Doctor, 1 is blood, 2 is scan
         self.PlaceType = 0 # to identify the type of place, need overwrite 
-        self.all_patients_lineup = []
         # ADD external patients
         # add input patients
 
         for patient in patients:
             self.add_patient(patient)
-            self.all_patients_lineup.append(patient) # record only
         
-        if not H.MUTE:
-            print(H.Red+"Successfully generate patients in {}_Place!".format(H.Name_waiting_place[self.PlaceType]))
+        print(H.Red+"Successfully generate patients in {}_Place!".format(H.Name_waiting_place[self.PlaceType]))
         
         # Add walk-in and revisit
         # walk-in
         self.walk_in_rate = walk_in_rate
-        self.walkin = Patient(arrive_time=H.Generator.Exponential(self.walk_in_rate))        
+        self.walkin = queue.Queue() 
+        
+        walkin_patients = patients = self.__generate_walkin(walk_in_rate)
+        for patient in walkin_patients:
+            self.add_walkin(patient)
+
         # revisit 
         self.revisit = queue.Queue()
         
+    def __generate_walkin(self, lamda):
+        now = 0
+        walkin_patients = []
+        while now < H.SIM_END:
+            now += H.Generator.Exponential(lamda)
+            walkin_patients.append(Patient(self.PlaceType, arrive_time=now))
+        return walkin_patients
+
+    def add_walkin(self, patient):
+        self.walkin.put(patient)
+
     # scheduled_patients
     def __generate_schedule(self, p):
         patients = []
@@ -115,7 +126,7 @@ class Doctor_Place(object):
     def next_patient(self):
         revisit = self.revisit.queue[0].time[-1, 0] if not self.revisit.empty() else H.SIM_END
         scheduled = self.WaitingQ.queue[0][0] if not self.WaitingQ.empty() else H.SIM_END
-        return max(H.Now_step, min(scheduled, H.Ceil_Slot(self.walkin.time[0,0]), H.Ceil_Slot(revisit)))
+        return max(H.Now_step, min(scheduled, H.Ceil_Slot(self.walkin.queue[0].time[0,0]), H.Ceil_Slot(revisit)))
 
     # return type (which queue) 
     def send_patient(self):
@@ -124,12 +135,12 @@ class Doctor_Place(object):
             assert self.WaitingQ.queue[0][0] == H.Now_step # Must serve the scheduled patient at the scheduled time
             patient = self.WaitingQ.get()[1]
             return patient
+
         else:
             if (not self.revisit.empty()) and H.Ceil_Slot(self.revisit.queue[0].time[-1,0]) <= H.Now_step:
                 return self.revisit.get()
-            elif H.Ceil_Slot(self.walkin.time[0,0]) <= H.Now_step:
-                patient = self.walkin
-                self.walkin = Patient(arrive_time=H.Generator.Exponential(self.walk_in_rate)+patient.time[0,0]) # genearte next walk-in
+            elif H.Ceil_Slot(self.walkin.queue[0].time[0,0]) <= H.Now_step:
+                patient = self.walkin.get()
                 return patient
             else:
                 assert False

@@ -2,15 +2,35 @@
 
 ## 1. Source Code ##
 
+### 0) Simulation.py ###
+
+- This file is main file to simulate the whole process.
+- Current argparser includes:
+  ```python
+  parser.add_argument('--sim_end',            type = int,   default = 720)
+  parser.add_argument('--p_showup',           type = float, default = 4/5)
+  parser.add_argument('--walk_in_rate',       type = float, default = 1/5)
+  parser.add_argument('--arrival_rate_blood', type = float, default = 1/15)
+  parser.add_argument('--arrival_rate_scan',  type = float, default = 1/25)    # external arrival rate a
+  parser.add_argument('--num_node',           type = list,  default = [1,2,3]) # server number at each station
+  ```
+- Some tunning parameters can be specified via commands
+- For example if you want to change the total horizon from default 720 mins to 600 mins
+  ```python
+  python Simulation.py --sim_end 600
+  ```
+- set MUTE = True to turn off detailed print out.
+- set RECORD = True to write event records at three stations to './result/' folder.
+
 ### 1) utils.py ###
 
-- This file includes all global variables and functions.
-- Also some extra functions, such as formatted print out with colors
+- This file includes all pre-determined environment setting parameters, global variables and functions,
+- More complex environment ettings parameters, such as the transition probability and walk-time are also specified here.
+- Some extra functions for beautiful visualizations are also included.
 
 #### Global Variable: ####
 
 - **RAN_SEED**: random seed, to reproduce
-- **MUTE**: Mode setting, to print all events
 - **Name_waiting_place**, **Red**, **Clear** etc: Lookup table or string
 - **SAVE**: list of list to save patient, 0-doctor 1-blood 2-scan
 
@@ -22,12 +42,12 @@
 
 - **Ceil_Slot**: Since doctor must operate in a SLOT.
 
+- **print_update, write_update**: Show/Record time stamp and next active station.
+- **print_transit, write_transit**: Show/Record event's details.
+- **write_info**: Record the selected patient's updated info.
+
 - **Visualize**: to visualize the element of SAVE.
   call (when your main environment is the Simulation.py) or you can call this code in “\_\_main\_\_” of Simulation.py:
-
-  ```python
-  >>H.Visualize(H.SAVE).to_csv("请输入文件名.csv")
-  ```
 
 ### 2) Patient.py ###
 
@@ -73,9 +93,3 @@
 - The Serve_Place has only one API:
   - work(self, patient): Just serve the patient, and return him/her.
 
-### 5) Simulation.py ###
-
-- This file is main file to simulate the whole process.
-- It has 2 strategies.
-  - Strategy 1: in all idle service and doctor (finish_time <= Now_step), find whose expected patient's time is minimum, and update Now_step = the time. However, there is a bug, when a busy server is idle at that time. So use itself for skip this period.
-  - Strategy 2: in all service and doctor (including busy servers), find min(all servers' max(finish_time, expected_time))
