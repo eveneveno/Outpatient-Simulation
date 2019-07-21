@@ -21,7 +21,7 @@ args = parser.parse_args()
 trans_prob = np.array([[0,   0.6, 0.3],
                         [0.5, 0,   0.5],
                         [1,   0,   0  ]])
-walk_time = np.zeros(trans_prob.shape
+walk_time = np.zeros(trans_prob.shape)
 
 # ----------------------------------------Global Variable------------------------------------------------
 # Random Seed for Reproducing

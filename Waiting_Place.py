@@ -33,7 +33,7 @@ class Waiting_Place(object):
             patients = lamda_or_patients
             
         self.__add_external(patients)
-        print(H.Red+"Successfully generate patients in {}_Place!".format(H.Name_waiting_place[self.PlaceType]))
+        print("Successfully generate patients in {}_Place!".format(H.Name_waiting_place[self.PlaceType]))
 
     def __generate_external(self, lamda):
         now = 0
@@ -80,7 +80,7 @@ class Doctor_Place(object):
         for patient in patients:
             self.add_patient(patient)
         
-        print(H.Red+"Successfully generate patients in {}_Place!".format(H.Name_waiting_place[self.PlaceType]))
+        print("Successfully generate patients in {}_Place!".format(H.Name_waiting_place[self.PlaceType]))
         
         # Add walk-in and revisit
         # walk-in
