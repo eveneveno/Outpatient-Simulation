@@ -2,10 +2,10 @@
 
 #### 🥥 Sample Result ####
 - Some tunning parameters can be specified via commands
-- For example if you want to change the total horizon from default 720 mins to 600 mins
+- For example if you want to change the total horizon from default 720 mins to 120 mins
 
 ```
-  python Simulation.py --sim_end 600
+  python Simulation.py --sim_end 120
 ```
 ![demo image](demo.png)
 ```
