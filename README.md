@@ -8,6 +8,10 @@
   python Simulation.py --sim_end 600
 ```
 ![demo image](demo.png)
+```
+  python Simulation.py --sim_end 600 --p_showup 0.4 --mute True
+```
+![demo image](waiting.png)
 - Check sample records (`Doctor.csv`, `Blood.csv`, `Scan.csv`) for event lists of each station.
 #### 🥥 Source Code ###
 

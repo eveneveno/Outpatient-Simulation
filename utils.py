@@ -11,11 +11,12 @@ import prettytable as pt
 import argparse
 parser = argparse.ArgumentParser(description='Outpatient Simulation')
 parser.add_argument('--sim_end',            type = int, default = 720)
-parser.add_argument('--p_showup',           type = float, default = 4/5)
-parser.add_argument('--walk_in_rate',       type = float, default = 1/5)
+parser.add_argument('--p_showup',           type = float, default = 2/5)
+parser.add_argument('--walk_in_rate',       type = float, default = 1/10)
 parser.add_argument('--arrival_rate_blood', type = float, default = 1/15)
 parser.add_argument('--arrival_rate_scan',  type = float, default = 1/25)
-parser.add_argument('--num_node',          type = list,  default = [1,2,3])
+parser.add_argument('--num_node',           type = list,  default = [1,2,3])
+parser.add_argument('--mute',               type = bool,  default = False)
 args = parser.parse_args()
 
 trans_prob = np.array([[0,   0.6, 0.3],
@@ -24,6 +25,12 @@ trans_prob = np.array([[0,   0.6, 0.3],
 walk_time = np.zeros(trans_prob.shape)
 
 # ----------------------------------------Global Variable------------------------------------------------
+#################################################
+# Mode MUTE: print some points
+MUTE = args.mute
+RECORD = True
+#################################################
+
 # Random Seed for Reproducing
 RAN_SEED = 2019
 random.seed(RAN_SEED)
@@ -49,6 +56,9 @@ Red    = "\033[1;31m" # bold
 Green  = "\033[32m"
 Yellow = "\033[33m" 
 Blue   = "\033[34m"
+
+max_id = 0
+all_patient = []
 
 def print_update(color, count, type, id):
     print("------------------------------------------------------------")

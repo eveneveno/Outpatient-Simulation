@@ -8,7 +8,8 @@ class Patient(object):
     def __init__(self, select = 0, arrive_time = None):
         self.id = str(Patient.ID_generate).zfill(H.DIGITS) # to identify patient
         Patient.ID_generate += 1
-        
+        H.max_id += 1
+        H.all_patient.append(self)
         self.revisit = False # to indentify whether he/she has seen the doctor
         
         # time: record all kinds of time

@@ -1,37 +1,7 @@
 --------------------------------------------------------
-Event Count: 0 Current Time: 5.00 
+Event Count: 0 Current Time: 15.00 
 Active Station: Doctor-0
 ========== Patient ID: 00000 ==========
-At Doctor	Start: 5.00, Finish: 10.00
-To Blood	Arrive: 10.00
-Doctor	5.00	5.00	10.00	None	0.00	
-Blood	10.00	None	None	None	None	
-Scan	None	None	None	None	None	
-Revisit	None	None	None	None	None	
---------------------------------------------------------
-Event Count: 1 Current Time: 10.00 
-Active Station: Doctor-0
-========== Patient ID: 00016 ==========
-At Doctor	Start: 10.00, Finish: 15.00
-To Blood	Arrive: 15.00
-Doctor	5.47	10.00	15.00	None	0.00	
-Blood	15.00	None	None	None	None	
-Scan	None	None	None	None	None	
-Revisit	None	None	None	None	None	
---------------------------------------------------------
-Event Count: 2 Current Time: 10.00 
-Active Station: Blood-0
-========== Patient ID: 00000 ==========
-At Blood	Start: 10.00, Finish: 15.90, Report: 45.90
-To Scan	Arrive: 15.90
-Doctor	5.00	5.00	10.00	None	0.00	
-Blood	10.00	10.00	15.90	45.90	0.00	
-Scan	15.90	None	None	None	None	
-Revisit	None	None	None	None	None	
---------------------------------------------------------
-Event Count: 3 Current Time: 15.00 
-Active Station: Doctor-0
-========== Patient ID: 00001 ==========
 At Doctor	Start: 15.00, Finish: 20.00
 To Scan	Arrive: 20.00
 Doctor	15.00	15.00	20.00	None	0.00	
@@ -39,299 +9,189 @@ Blood	None	None	None	None	None
 Scan	20.00	None	None	None	None	
 Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 4 Current Time: 15.00 
-Active Station: Blood-1
-========== Patient ID: 00016 ==========
-At Blood	Start: 15.00, Finish: 20.43, Report: 65.43
-To Scan	Arrive: 20.43
-Doctor	5.47	10.00	15.00	None	0.00	
-Blood	15.00	15.00	20.43	65.43	1.00	
-Scan	20.43	None	None	None	None	
-Revisit	None	None	None	None	None	
---------------------------------------------------------
-Event Count: 5 Current Time: 15.90 
+Event Count: 1 Current Time: 17.55 
 Active Station: Blood-0
-========== Patient ID: 00037 ==========
-At Blood	Start: 15.90, Finish: 19.81, Report: 49.81
+========== Patient ID: 00105 ==========
+At Blood	Start: 17.55, Finish: 21.11, Report: 51.11
 To Go Home	Arrive: N/A
 Doctor	None	None	None	None	None	
-Blood	15.15	15.90	19.81	49.81	0.00	
+Blood	17.55	17.55	21.11	51.11	0.00	
 Scan	None	None	None	None	None	
 Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 6 Current Time: 15.90 
-Active Station: Scan-0
-========== Patient ID: 00000 ==========
-At Scan	Start: 15.90, Finish: 26.39, Report: 26.39
-To Doctor	Arrive: 45.90
-Doctor	5.00	5.00	10.00	None	0.00	
-Blood	10.00	10.00	15.90	45.90	0.00	
-Scan	15.90	15.90	26.39	26.39	0.00	
-Revisit	45.90	None	None	None	None	
---------------------------------------------------------
-Event Count: 7 Current Time: 20.00 
+Event Count: 2 Current Time: 20.00 
 Active Station: Doctor-0
-========== Patient ID: 00002 ==========
+========== Patient ID: 00050 ==========
 At Doctor	Start: 20.00, Finish: 25.00
 To Blood	Arrive: 25.00
-Doctor	20.00	20.00	25.00	None	0.00	
+Doctor	10.47	20.00	25.00	None	0.00	
 Blood	25.00	None	None	None	None	
 Scan	None	None	None	None	None	
 Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 8 Current Time: 20.00 
-Active Station: Scan-1
-========== Patient ID: 00001 ==========
-At Scan	Start: 20.00, Finish: 33.42, Report: 33.42
-To Doctor	Arrive: 33.42
+Event Count: 3 Current Time: 20.00 
+Active Station: Scan-0
+========== Patient ID: 00000 ==========
+At Scan	Start: 20.00, Finish: 34.46, Report: 34.46
+To Doctor	Arrive: 34.46
 Doctor	15.00	15.00	20.00	None	0.00	
 Blood	None	None	None	None	None	
-Scan	20.00	20.00	33.42	33.42	1.00	
-Revisit	33.42	None	None	None	None	
+Scan	20.00	20.00	34.46	34.46	0.00	
+Revisit	34.46	None	None	None	None	
 --------------------------------------------------------
-Event Count: 9 Current Time: 20.43 
-Active Station: Scan-2
-========== Patient ID: 00016 ==========
-At Scan	Start: 20.43, Finish: 32.63, Report: 32.63
-To Doctor	Arrive: 65.43
-Doctor	5.47	10.00	15.00	None	0.00	
-Blood	15.00	15.00	20.43	65.43	1.00	
-Scan	20.43	20.43	32.63	32.63	2.00	
-Revisit	65.43	None	None	None	None	
---------------------------------------------------------
-Event Count: 10 Current Time: 25.00 
+Event Count: 4 Current Time: 25.00 
 Active Station: Doctor-0
-========== Patient ID: 00017 ==========
+========== Patient ID: 00051 ==========
 At Doctor	Start: 25.00, Finish: 30.00
-To Scan	Arrive: 30.00
-Doctor	13.48	25.00	30.00	None	0.00	
-Blood	None	None	None	None	None	
-Scan	30.00	None	None	None	None	
-Revisit	None	None	None	None	None	
---------------------------------------------------------
-Event Count: 11 Current Time: 25.00 
-Active Station: Blood-0
-========== Patient ID: 00002 ==========
-At Blood	Start: 25.00, Finish: 28.37, Report: 58.37
-To Scan	Arrive: 28.37
-Doctor	20.00	20.00	25.00	None	0.00	
-Blood	25.00	25.00	28.37	58.37	0.00	
-Scan	28.37	None	None	None	None	
-Revisit	None	None	None	None	None	
---------------------------------------------------------
-Event Count: 12 Current Time: 26.39 
-Active Station: Scan-0
-========== Patient ID: 00045 ==========
-At Scan	Start: 26.39, Finish: 38.86, Report: 38.86
-To Go Home	Arrive: N/A
-Doctor	None	None	None	None	None	
-Blood	None	None	None	None	None	
-Scan	25.05	26.39	38.86	38.86	0.00	
-Revisit	None	None	None	None	None	
---------------------------------------------------------
-Event Count: 13 Current Time: 30.00 
-Active Station: Doctor-0
-========== Patient ID: 00018 ==========
-At Doctor	Start: 30.00, Finish: 35.00
-To Blood	Arrive: 35.00
-Doctor	19.80	30.00	35.00	None	0.00	
-Blood	35.00	None	None	None	None	
+To Blood	Arrive: 30.00
+Doctor	23.48	25.00	30.00	None	0.00	
+Blood	30.00	None	None	None	None	
 Scan	None	None	None	None	None	
 Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 14 Current Time: 30.50 
+Event Count: 5 Current Time: 25.00 
 Active Station: Blood-0
-========== Patient ID: 00038 ==========
-At Blood	Start: 30.50, Finish: 33.60, Report: 78.60
-To Go Home	Arrive: N/A
-Doctor	None	None	None	None	None	
-Blood	30.50	30.50	33.60	78.60	0.00	
-Scan	None	None	None	None	None	
+========== Patient ID: 00050 ==========
+At Blood	Start: 25.00, Finish: 29.62, Report: 59.62
+To Scan	Arrive: 29.62
+Doctor	10.47	20.00	25.00	None	0.00	
+Blood	25.00	25.00	29.62	59.62	0.00	
+Scan	29.62	None	None	None	None	
 Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 15 Current Time: 32.63 
-Active Station: Scan-2
-========== Patient ID: 00002 ==========
-At Scan	Start: 32.63, Finish: 47.17, Report: 47.17
-To Doctor	Arrive: 58.37
-Doctor	20.00	20.00	25.00	None	0.00	
-Blood	25.00	25.00	28.37	58.37	0.00	
-Scan	28.37	32.63	47.17	47.17	2.00	
-Revisit	58.37	None	None	None	None	
---------------------------------------------------------
-Event Count: 16 Current Time: 33.42 
+Event Count: 6 Current Time: 25.82 
 Active Station: Scan-1
-========== Patient ID: 00017 ==========
-At Scan	Start: 33.42, Finish: 44.72, Report: 44.72
-To Doctor	Arrive: 44.72
-Doctor	13.48	25.00	30.00	None	0.00	
+========== Patient ID: 00143 ==========
+At Scan	Start: 25.82, Finish: 39.86, Report: 39.86
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
 Blood	None	None	None	None	None	
-Scan	30.00	33.42	44.72	44.72	1.00	
-Revisit	44.72	None	None	None	None	
+Scan	25.82	25.82	39.86	39.86	1.00	
+Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 17 Current Time: 35.00 
-Active Station: Doctor-0
-========== Patient ID: 00019 ==========
-At Doctor	Start: 35.00, Finish: 40.00
-To Blood	Arrive: 40.00
-Doctor	25.71	35.00	40.00	None	0.00	
-Blood	40.00	None	None	None	None	
+Event Count: 7 Current Time: 29.62 
+Active Station: Scan-2
+========== Patient ID: 00050 ==========
+At Scan	Start: 29.62, Finish: 44.10, Report: 44.10
+To Doctor	Arrive: 59.62
+Doctor	10.47	20.00	25.00	None	0.00	
+Blood	25.00	25.00	29.62	59.62	0.00	
+Scan	29.62	29.62	44.10	44.10	2.00	
+Revisit	59.62	None	None	None	None	
+--------------------------------------------------------
+Event Count: 8 Current Time: 30.00 
+Active Station: Blood-0
+========== Patient ID: 00051 ==========
+At Blood	Start: 30.00, Finish: 33.95, Report: 63.95
+To Scan	Arrive: 33.95
+Doctor	23.48	25.00	30.00	None	0.00	
+Blood	30.00	30.00	33.95	63.95	0.00	
+Scan	33.95	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 9 Current Time: 32.64 
+Active Station: Blood-1
+========== Patient ID: 00106 ==========
+At Blood	Start: 32.64, Finish: 35.97, Report: 80.97
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	32.64	32.64	35.97	80.97	1.00	
 Scan	None	None	None	None	None	
 Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 18 Current Time: 35.00 
-Active Station: Blood-0
-========== Patient ID: 00018 ==========
-At Blood	Start: 35.00, Finish: 39.99, Report: 84.99
-To Scan	Arrive: 39.99
-Doctor	19.80	30.00	35.00	None	0.00	
-Blood	35.00	35.00	39.99	84.99	0.00	
-Scan	39.99	None	None	None	None	
-Revisit	None	None	None	None	None	
---------------------------------------------------------
-Event Count: 19 Current Time: 39.99 
+Event Count: 10 Current Time: 34.46 
 Active Station: Scan-0
-========== Patient ID: 00018 ==========
-At Scan	Start: 39.99, Finish: 51.55, Report: 51.55
-To Doctor	Arrive: 84.99
-Doctor	19.80	30.00	35.00	None	0.00	
-Blood	35.00	35.00	39.99	84.99	0.00	
-Scan	39.99	39.99	51.55	51.55	0.00	
-Revisit	84.99	None	None	None	None	
+========== Patient ID: 00051 ==========
+At Scan	Start: 34.46, Finish: 45.60, Report: 45.60
+To Doctor	Arrive: 63.95
+Doctor	23.48	25.00	30.00	None	0.00	
+Blood	30.00	30.00	33.95	63.95	0.00	
+Scan	33.95	34.46	45.60	45.60	0.00	
+Revisit	63.95	None	None	None	None	
 --------------------------------------------------------
-Event Count: 20 Current Time: 40.00 
+Event Count: 11 Current Time: 35.00 
 Active Station: Doctor-0
-========== Patient ID: 00003 ==========
+========== Patient ID: 00000 ==========
+At Doctor	Start: 35.00, Finish: 40.00
+ToGo Home	Arrive: N/A
+Doctor	15.00	15.00	20.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	20.00	20.00	34.46	34.46	0.00	
+Revisit	34.46	35.00	40.00	None	0.00	
+--------------------------------------------------------
+Event Count: 12 Current Time: 40.00 
+Active Station: Doctor-0
+========== Patient ID: 00052 ==========
 At Doctor	Start: 40.00, Finish: 45.00
 To Blood	Arrive: 45.00
-Doctor	40.00	40.00	45.00	None	0.00	
+Doctor	34.80	40.00	45.00	None	0.00	
 Blood	45.00	None	None	None	None	
 Scan	None	None	None	None	None	
 Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 21 Current Time: 40.00 
+Event Count: 13 Current Time: 45.00 
 Active Station: Blood-0
-========== Patient ID: 00019 ==========
-At Blood	Start: 40.00, Finish: 44.56, Report: 89.56
-To Scan	Arrive: 44.56
-Doctor	25.71	35.00	40.00	None	0.00	
-Blood	40.00	40.00	44.56	89.56	0.00	
-Scan	44.56	None	None	None	None	
+========== Patient ID: 00052 ==========
+At Blood	Start: 45.00, Finish: 49.28, Report: 79.28
+To Scan	Arrive: 49.28
+Doctor	34.80	40.00	45.00	None	0.00	
+Blood	45.00	45.00	49.28	79.28	0.00	
+Scan	49.28	None	None	None	None	
 Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 22 Current Time: 44.72 
-Active Station: Scan-1
-========== Patient ID: 00019 ==========
-At Scan	Start: 44.72, Finish: 57.45, Report: 57.45
-To Doctor	Arrive: 89.56
-Doctor	25.71	35.00	40.00	None	0.00	
-Blood	40.00	40.00	44.56	89.56	0.00	
-Scan	44.56	44.72	57.45	57.45	1.00	
-Revisit	89.56	None	None	None	None	
---------------------------------------------------------
-Event Count: 23 Current Time: 45.00 
-Active Station: Doctor-0
-========== Patient ID: 00020 ==========
-At Doctor	Start: 45.00, Finish: 50.00
-To Blood	Arrive: 50.00
-Doctor	30.88	45.00	50.00	None	0.00	
-Blood	50.00	None	None	None	None	
-Scan	None	None	None	None	None	
-Revisit	None	None	None	None	None	
---------------------------------------------------------
-Event Count: 24 Current Time: 45.00 
-Active Station: Blood-0
-========== Patient ID: 00003 ==========
-At Blood	Start: 45.00, Finish: 48.55, Report: 78.55
-To Scan	Arrive: 48.55
-Doctor	40.00	40.00	45.00	None	0.00	
-Blood	45.00	45.00	48.55	78.55	0.00	
-Scan	48.55	None	None	None	None	
-Revisit	None	None	None	None	None	
---------------------------------------------------------
-Event Count: 25 Current Time: 45.95 
+Event Count: 14 Current Time: 47.86 
 Active Station: Blood-1
-========== Patient ID: 00039 ==========
-At Blood	Start: 45.95, Finish: 51.86, Report: 81.86
+========== Patient ID: 00107 ==========
+At Blood	Start: 47.86, Finish: 53.31, Report: 83.31
 To Go Home	Arrive: N/A
 Doctor	None	None	None	None	None	
-Blood	45.95	45.95	51.86	81.86	1.00	
+Blood	47.86	47.86	53.31	83.31	1.00	
 Scan	None	None	None	None	None	
 Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 26 Current Time: 48.55 
-Active Station: Scan-2
-========== Patient ID: 00003 ==========
-At Scan	Start: 48.55, Finish: 62.43, Report: 62.43
-To Doctor	Arrive: 78.55
-Doctor	40.00	40.00	45.00	None	0.00	
-Blood	45.00	45.00	48.55	78.55	0.00	
-Scan	48.55	48.55	62.43	62.43	2.00	
-Revisit	78.55	None	None	None	None	
---------------------------------------------------------
-Event Count: 27 Current Time: 50.00 
-Active Station: Doctor-0
-========== Patient ID: 00004 ==========
-At Doctor	Start: 50.00, Finish: 55.00
-To Blood	Arrive: 55.00
-Doctor	50.00	50.00	55.00	None	0.00	
-Blood	55.00	None	None	None	None	
-Scan	None	None	None	None	None	
-Revisit	None	None	None	None	None	
---------------------------------------------------------
-Event Count: 28 Current Time: 50.00 
-Active Station: Blood-0
-========== Patient ID: 00020 ==========
-At Blood	Start: 50.00, Finish: 55.82, Report: 85.82
-To Scan	Arrive: 55.82
-Doctor	30.88	45.00	50.00	None	0.00	
-Blood	50.00	50.00	55.82	85.82	0.00	
-Scan	55.82	None	None	None	None	
-Revisit	None	None	None	None	None	
---------------------------------------------------------
-Event Count: 29 Current Time: 51.55 
+Event Count: 15 Current Time: 49.28 
 Active Station: Scan-0
-========== Patient ID: 00046 ==========
-At Scan	Start: 51.55, Finish: 66.02, Report: 66.02
+========== Patient ID: 00052 ==========
+At Scan	Start: 49.28, Finish: 63.58, Report: 63.58
+To Doctor	Arrive: 79.28
+Doctor	34.80	40.00	45.00	None	0.00	
+Blood	45.00	45.00	49.28	79.28	0.00	
+Scan	49.28	49.28	63.58	63.58	0.00	
+Revisit	79.28	None	None	None	None	
+--------------------------------------------------------
+Event Count: 16 Current Time: 50.00 
+Active Station: Doctor-0
+========== Patient ID: 00053 ==========
+At Doctor	Start: 50.00, Finish: 55.00
+To Scan	Arrive: 55.00
+Doctor	45.71	50.00	55.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	55.00	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 17 Current Time: 52.30 
+Active Station: Scan-1
+========== Patient ID: 00144 ==========
+At Scan	Start: 52.30, Finish: 62.33, Report: 62.33
 To Go Home	Arrive: N/A
 Doctor	None	None	None	None	None	
 Blood	None	None	None	None	None	
-Scan	50.98	51.55	66.02	66.02	0.00	
+Scan	52.30	52.30	62.33	62.33	1.00	
 Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 30 Current Time: 55.00 
+Event Count: 18 Current Time: 55.00 
+Active Station: Scan-2
+========== Patient ID: 00053 ==========
+At Scan	Start: 55.00, Finish: 67.55, Report: 67.55
+To Doctor	Arrive: 67.55
+Doctor	45.71	50.00	55.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	55.00	55.00	67.55	67.55	2.00	
+Revisit	67.55	None	None	None	None	
+--------------------------------------------------------
+Event Count: 19 Current Time: 60.00 
 Active Station: Doctor-0
-========== Patient ID: 00005 ==========
-At Doctor	Start: 55.00, Finish: 60.00
-To Blood	Arrive: 60.00
-Doctor	55.00	55.00	60.00	None	0.00	
-Blood	60.00	None	None	None	None	
-Scan	None	None	None	None	None	
-Revisit	None	None	None	None	None	
---------------------------------------------------------
-Event Count: 31 Current Time: 55.00 
-Active Station: Blood-1
-========== Patient ID: 00004 ==========
-At Blood	Start: 55.00, Finish: 59.79, Report: 89.79
-To Scan	Arrive: 59.79
-Doctor	50.00	50.00	55.00	None	0.00	
-Blood	55.00	55.00	59.79	89.79	1.00	
-Scan	59.79	None	None	None	None	
-Revisit	None	None	None	None	None	
---------------------------------------------------------
-Event Count: 32 Current Time: 57.45 
-Active Station: Scan-1
-========== Patient ID: 00020 ==========
-At Scan	Start: 57.45, Finish: 72.06, Report: 72.06
-To Doctor	Arrive: 85.82
-Doctor	30.88	45.00	50.00	None	0.00	
-Blood	50.00	50.00	55.82	85.82	0.00	
-Scan	55.82	57.45	72.06	72.06	1.00	
-Revisit	85.82	None	None	None	None	
---------------------------------------------------------
-Event Count: 33 Current Time: 60.00 
-Active Station: Doctor-0
-========== Patient ID: 00006 ==========
+========== Patient ID: 00001 ==========
 At Doctor	Start: 60.00, Finish: 65.00
 To Blood	Arrive: 65.00
 Doctor	60.00	60.00	65.00	None	0.00	
@@ -339,109 +199,89 @@ Blood	65.00	None	None	None	None
 Scan	None	None	None	None	None	
 Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 34 Current Time: 60.00 
+Event Count: 20 Current Time: 62.91 
 Active Station: Blood-0
-========== Patient ID: 00005 ==========
-At Blood	Start: 60.00, Finish: 63.27, Report: 108.27
-To Doctor	Arrive: 108.27
-Doctor	55.00	55.00	60.00	None	0.00	
-Blood	60.00	60.00	63.27	108.27	0.00	
-Scan	None	None	None	None	None	
-Revisit	108.27	None	None	None	None	
---------------------------------------------------------
-Event Count: 35 Current Time: 61.56 
-Active Station: Blood-1
-========== Patient ID: 00040 ==========
-At Blood	Start: 61.56, Finish: 65.15, Report: 110.15
+========== Patient ID: 00108 ==========
+At Blood	Start: 62.91, Finish: 67.16, Report: 97.16
 To Go Home	Arrive: N/A
 Doctor	None	None	None	None	None	
-Blood	61.56	61.56	65.15	110.15	1.00	
+Blood	62.91	62.91	67.16	97.16	0.00	
 Scan	None	None	None	None	None	
 Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 36 Current Time: 62.43 
-Active Station: Scan-2
-========== Patient ID: 00004 ==========
-At Scan	Start: 62.43, Finish: 72.66, Report: 72.66
-To Doctor	Arrive: 89.79
-Doctor	50.00	50.00	55.00	None	0.00	
-Blood	55.00	55.00	59.79	89.79	1.00	
-Scan	59.79	62.43	72.66	72.66	2.00	
-Revisit	89.79	None	None	None	None	
---------------------------------------------------------
-Event Count: 37 Current Time: 65.00 
+Event Count: 21 Current Time: 65.00 
 Active Station: Doctor-0
-========== Patient ID: 00007 ==========
+========== Patient ID: 00050 ==========
 At Doctor	Start: 65.00, Finish: 70.00
-To Scan	Arrive: 70.00
-Doctor	65.00	65.00	70.00	None	0.00	
-Blood	None	None	None	None	None	
-Scan	70.00	None	None	None	None	
+ToGo Home	Arrive: N/A
+Doctor	10.47	20.00	25.00	None	0.00	
+Blood	25.00	25.00	29.62	59.62	0.00	
+Scan	29.62	29.62	44.10	44.10	2.00	
+Revisit	59.62	65.00	70.00	None	0.00	
+--------------------------------------------------------
+Event Count: 22 Current Time: 65.00 
+Active Station: Blood-1
+========== Patient ID: 00001 ==========
+At Blood	Start: 65.00, Finish: 68.67, Report: 113.67
+To Scan	Arrive: 68.67
+Doctor	60.00	60.00	65.00	None	0.00	
+Blood	65.00	65.00	68.67	113.67	1.00	
+Scan	68.67	None	None	None	None	
 Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 38 Current Time: 65.00 
-Active Station: Blood-0
-========== Patient ID: 00006 ==========
-At Blood	Start: 65.00, Finish: 68.98, Report: 113.98
-To Doctor	Arrive: 113.98
+Event Count: 23 Current Time: 68.67 
+Active Station: Scan-0
+========== Patient ID: 00001 ==========
+At Scan	Start: 68.67, Finish: 79.27, Report: 79.27
+To Doctor	Arrive: 113.67
 Doctor	60.00	60.00	65.00	None	0.00	
-Blood	65.00	65.00	68.98	113.98	0.00	
-Scan	None	None	None	None	None	
-Revisit	113.98	None	None	None	None	
+Blood	65.00	65.00	68.67	113.67	1.00	
+Scan	68.67	68.67	79.27	79.27	0.00	
+Revisit	113.67	None	None	None	None	
 --------------------------------------------------------
-Event Count: 39 Current Time: 70.00 
+Event Count: 24 Current Time: 70.00 
 Active Station: Doctor-0
-========== Patient ID: 00000 ==========
+========== Patient ID: 00051 ==========
 At Doctor	Start: 70.00, Finish: 75.00
 ToGo Home	Arrive: N/A
-Doctor	5.00	5.00	10.00	None	0.00	
-Blood	10.00	10.00	15.90	45.90	0.00	
-Scan	15.90	15.90	26.39	26.39	0.00	
-Revisit	45.90	70.00	75.00	None	0.00	
+Doctor	23.48	25.00	30.00	None	0.00	
+Blood	30.00	30.00	33.95	63.95	0.00	
+Scan	33.95	34.46	45.60	45.60	0.00	
+Revisit	63.95	70.00	75.00	None	0.00	
 --------------------------------------------------------
-Event Count: 40 Current Time: 70.00 
-Active Station: Scan-0
-========== Patient ID: 00007 ==========
-At Scan	Start: 70.00, Finish: 81.94, Report: 81.94
-To Doctor	Arrive: 81.94
-Doctor	65.00	65.00	70.00	None	0.00	
-Blood	None	None	None	None	None	
-Scan	70.00	70.00	81.94	81.94	0.00	
-Revisit	81.94	None	None	None	None	
---------------------------------------------------------
-Event Count: 41 Current Time: 75.00 
+Event Count: 25 Current Time: 75.00 
 Active Station: Doctor-0
-========== Patient ID: 00008 ==========
+========== Patient ID: 00054 ==========
 At Doctor	Start: 75.00, Finish: 80.00
-To Blood	Arrive: 80.00
-Doctor	75.00	75.00	80.00	None	0.00	
-Blood	80.00	None	None	None	None	
-Scan	None	None	None	None	None	
+To Scan	Arrive: 80.00
+Doctor	55.88	75.00	80.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	80.00	None	None	None	None	
 Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 42 Current Time: 76.17 
+Event Count: 26 Current Time: 77.98 
 Active Station: Scan-1
-========== Patient ID: 00047 ==========
-At Scan	Start: 76.17, Finish: 87.53, Report: 87.53
+========== Patient ID: 00145 ==========
+At Scan	Start: 77.98, Finish: 89.67, Report: 89.67
 To Go Home	Arrive: N/A
 Doctor	None	None	None	None	None	
 Blood	None	None	None	None	None	
-Scan	76.17	76.17	87.53	87.53	1.00	
+Scan	77.98	77.98	89.67	89.67	1.00	
 Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 43 Current Time: 78.10 
+Event Count: 27 Current Time: 78.30 
 Active Station: Blood-0
-========== Patient ID: 00041 ==========
-At Blood	Start: 78.10, Finish: 83.59, Report: 113.59
+========== Patient ID: 00109 ==========
+At Blood	Start: 78.30, Finish: 84.13, Report: 114.13
 To Go Home	Arrive: N/A
 Doctor	None	None	None	None	None	
-Blood	78.10	78.10	83.59	113.59	0.00	
+Blood	78.30	78.30	84.13	114.13	0.00	
 Scan	None	None	None	None	None	
 Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 44 Current Time: 80.00 
+Event Count: 28 Current Time: 80.00 
 Active Station: Doctor-0
-========== Patient ID: 00009 ==========
+========== Patient ID: 00002 ==========
 At Doctor	Start: 80.00, Finish: 85.00
 To Blood	Arrive: 85.00
 Doctor	80.00	80.00	85.00	None	0.00	
@@ -449,79 +289,69 @@ Blood	85.00	None	None	None	None
 Scan	None	None	None	None	None	
 Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 45 Current Time: 80.00 
-Active Station: Blood-1
-========== Patient ID: 00008 ==========
-At Blood	Start: 80.00, Finish: 84.07, Report: 114.07
-To Doctor	Arrive: 114.07
-Doctor	75.00	75.00	80.00	None	0.00	
-Blood	80.00	80.00	84.07	114.07	1.00	
-Scan	None	None	None	None	None	
-Revisit	114.07	None	None	None	None	
+Event Count: 29 Current Time: 80.00 
+Active Station: Scan-0
+========== Patient ID: 00054 ==========
+At Scan	Start: 80.00, Finish: 91.62, Report: 91.62
+To Doctor	Arrive: 91.62
+Doctor	55.88	75.00	80.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	80.00	80.00	91.62	91.62	0.00	
+Revisit	91.62	None	None	None	None	
 --------------------------------------------------------
-Event Count: 46 Current Time: 85.00 
+Event Count: 30 Current Time: 85.00 
 Active Station: Doctor-0
-========== Patient ID: 00010 ==========
+========== Patient ID: 00052 ==========
 At Doctor	Start: 85.00, Finish: 90.00
-To Blood	Arrive: 90.00
-Doctor	85.00	85.00	90.00	None	0.00	
-Blood	90.00	None	None	None	None	
-Scan	None	None	None	None	None	
-Revisit	None	None	None	None	None	
+ToGo Home	Arrive: N/A
+Doctor	34.80	40.00	45.00	None	0.00	
+Blood	45.00	45.00	49.28	79.28	0.00	
+Scan	49.28	49.28	63.58	63.58	0.00	
+Revisit	79.28	85.00	90.00	None	0.00	
 --------------------------------------------------------
-Event Count: 47 Current Time: 85.00 
+Event Count: 31 Current Time: 85.00 
 Active Station: Blood-0
-========== Patient ID: 00009 ==========
-At Blood	Start: 85.00, Finish: 88.84, Report: 133.84
-To Doctor	Arrive: 133.84
+========== Patient ID: 00002 ==========
+At Blood	Start: 85.00, Finish: 89.56, Report: 119.56
+To Scan	Arrive: 89.56
 Doctor	80.00	80.00	85.00	None	0.00	
-Blood	85.00	85.00	88.84	133.84	0.00	
-Scan	None	None	None	None	None	
-Revisit	133.84	None	None	None	None	
+Blood	85.00	85.00	89.56	119.56	0.00	
+Scan	89.56	None	None	None	None	
+Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 48 Current Time: 90.00 
+Event Count: 32 Current Time: 89.56 
+Active Station: Scan-2
+========== Patient ID: 00002 ==========
+At Scan	Start: 89.56, Finish: 103.07, Report: 103.07
+To Doctor	Arrive: 119.56
+Doctor	80.00	80.00	85.00	None	0.00	
+Blood	85.00	85.00	89.56	119.56	0.00	
+Scan	89.56	89.56	103.07	103.07	2.00	
+Revisit	119.56	None	None	None	None	
+--------------------------------------------------------
+Event Count: 33 Current Time: 90.00 
 Active Station: Doctor-0
-========== Patient ID: 00011 ==========
+========== Patient ID: 00053 ==========
 At Doctor	Start: 90.00, Finish: 95.00
-To Blood	Arrive: 95.00
-Doctor	90.00	90.00	95.00	None	0.00	
-Blood	95.00	None	None	None	None	
-Scan	None	None	None	None	None	
-Revisit	None	None	None	None	None	
+ToGo Home	Arrive: N/A
+Doctor	45.71	50.00	55.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	55.00	55.00	67.55	67.55	2.00	
+Revisit	67.55	90.00	95.00	None	0.00	
 --------------------------------------------------------
-Event Count: 49 Current Time: 90.00 
+Event Count: 34 Current Time: 93.79 
 Active Station: Blood-0
-========== Patient ID: 00010 ==========
-At Blood	Start: 90.00, Finish: 94.63, Report: 124.63
-To Scan	Arrive: 94.63
-Doctor	85.00	85.00	90.00	None	0.00	
-Blood	90.00	90.00	94.63	124.63	0.00	
-Scan	94.63	None	None	None	None	
-Revisit	None	None	None	None	None	
---------------------------------------------------------
-Event Count: 50 Current Time: 93.32 
-Active Station: Blood-1
-========== Patient ID: 00042 ==========
-At Blood	Start: 93.32, Finish: 96.74, Report: 126.74
+========== Patient ID: 00110 ==========
+At Blood	Start: 93.79, Finish: 97.88, Report: 142.88
 To Go Home	Arrive: N/A
 Doctor	None	None	None	None	None	
-Blood	93.32	93.32	96.74	126.74	1.00	
+Blood	93.79	93.79	97.88	142.88	0.00	
 Scan	None	None	None	None	None	
 Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 51 Current Time: 94.63 
-Active Station: Scan-0
-========== Patient ID: 00010 ==========
-At Scan	Start: 94.63, Finish: 108.64, Report: 108.64
-To Doctor	Arrive: 124.63
-Doctor	85.00	85.00	90.00	None	0.00	
-Blood	90.00	90.00	94.63	124.63	0.00	
-Scan	94.63	94.63	108.64	108.64	0.00	
-Revisit	124.63	None	None	None	None	
---------------------------------------------------------
-Event Count: 52 Current Time: 95.00 
+Event Count: 35 Current Time: 95.00 
 Active Station: Doctor-0
-========== Patient ID: 00012 ==========
+========== Patient ID: 00003 ==========
 At Doctor	Start: 95.00, Finish: 100.00
 To Blood	Arrive: 100.00
 Doctor	95.00	95.00	100.00	None	0.00	
@@ -529,29 +359,9 @@ Blood	100.00	None	None	None	None
 Scan	None	None	None	None	None	
 Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 53 Current Time: 95.00 
-Active Station: Blood-0
-========== Patient ID: 00011 ==========
-At Blood	Start: 95.00, Finish: 98.22, Report: 128.22
-To Scan	Arrive: 98.22
-Doctor	90.00	90.00	95.00	None	0.00	
-Blood	95.00	95.00	98.22	128.22	0.00	
-Scan	98.22	None	None	None	None	
-Revisit	None	None	None	None	None	
---------------------------------------------------------
-Event Count: 54 Current Time: 98.22 
-Active Station: Scan-1
-========== Patient ID: 00011 ==========
-At Scan	Start: 98.22, Finish: 113.16, Report: 113.16
-To Doctor	Arrive: 128.22
-Doctor	90.00	90.00	95.00	None	0.00	
-Blood	95.00	95.00	98.22	128.22	0.00	
-Scan	98.22	98.22	113.16	113.16	1.00	
-Revisit	128.22	None	None	None	None	
---------------------------------------------------------
-Event Count: 55 Current Time: 100.00 
+Event Count: 36 Current Time: 100.00 
 Active Station: Doctor-0
-========== Patient ID: 00013 ==========
+========== Patient ID: 00004 ==========
 At Doctor	Start: 100.00, Finish: 105.00
 To Blood	Arrive: 105.00
 Doctor	100.00	100.00	105.00	None	0.00	
@@ -559,102 +369,2252 @@ Blood	105.00	None	None	None	None
 Scan	None	None	None	None	None	
 Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 56 Current Time: 100.00 
+Event Count: 37 Current Time: 100.00 
 Active Station: Blood-0
-========== Patient ID: 00012 ==========
-At Blood	Start: 100.00, Finish: 105.32, Report: 135.32
-To Scan	Arrive: 105.32
+========== Patient ID: 00003 ==========
+At Blood	Start: 100.00, Finish: 105.92, Report: 135.92
+To Scan	Arrive: 105.92
 Doctor	95.00	95.00	100.00	None	0.00	
-Blood	100.00	100.00	105.32	135.32	0.00	
-Scan	105.32	None	None	None	None	
+Blood	100.00	100.00	105.92	135.92	0.00	
+Scan	105.92	None	None	None	None	
 Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 57 Current Time: 101.24 
-Active Station: Scan-2
-========== Patient ID: 00048 ==========
-At Scan	Start: 101.24, Finish: 112.23, Report: 112.23
+Event Count: 38 Current Time: 103.72 
+Active Station: Scan-0
+========== Patient ID: 00146 ==========
+At Scan	Start: 103.72, Finish: 118.53, Report: 118.53
 To Go Home	Arrive: N/A
 Doctor	None	None	None	None	None	
 Blood	None	None	None	None	None	
-Scan	101.24	101.24	112.23	112.23	2.00	
+Scan	103.72	103.72	118.53	118.53	0.00	
 Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 58 Current Time: 105.00 
+Event Count: 39 Current Time: 105.00 
+Active Station: Doctor-0
+========== Patient ID: 00055 ==========
+At Doctor	Start: 105.00, Finish: 110.00
+To Scan	Arrive: 110.00
+Doctor	66.05	105.00	110.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	110.00	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 40 Current Time: 105.00 
+Active Station: Blood-1
+========== Patient ID: 00004 ==========
+At Blood	Start: 105.00, Finish: 108.76, Report: 138.76
+To Scan	Arrive: 108.76
+Doctor	100.00	100.00	105.00	None	0.00	
+Blood	105.00	105.00	108.76	138.76	1.00	
+Scan	108.76	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 41 Current Time: 105.92 
+Active Station: Scan-1
+========== Patient ID: 00003 ==========
+At Scan	Start: 105.92, Finish: 118.40, Report: 118.40
+To Doctor	Arrive: 135.92
+Doctor	95.00	95.00	100.00	None	0.00	
+Blood	100.00	100.00	105.92	135.92	0.00	
+Scan	105.92	105.92	118.40	118.40	1.00	
+Revisit	135.92	None	None	None	None	
+--------------------------------------------------------
+Event Count: 42 Current Time: 108.76 
+Active Station: Scan-2
+========== Patient ID: 00004 ==========
+At Scan	Start: 108.76, Finish: 120.26, Report: 120.26
+To Doctor	Arrive: 138.76
+Doctor	100.00	100.00	105.00	None	0.00	
+Blood	105.00	105.00	108.76	138.76	1.00	
+Scan	108.76	108.76	120.26	120.26	2.00	
+Revisit	138.76	None	None	None	None	
+--------------------------------------------------------
+Event Count: 43 Current Time: 109.11 
+Active Station: Blood-0
+========== Patient ID: 00111 ==========
+At Blood	Start: 109.11, Finish: 112.96, Report: 142.96
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	109.11	109.11	112.96	142.96	0.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 44 Current Time: 110.00 
+Active Station: Doctor-0
+========== Patient ID: 00056 ==========
+At Doctor	Start: 110.00, Finish: 115.00
+To Scan	Arrive: 115.00
+Doctor	76.11	110.00	115.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	115.00	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 45 Current Time: 115.00 
 Active Station: Doctor-0
 ========== Patient ID: 00001 ==========
-At Doctor	Start: 105.00, Finish: 110.00
+At Doctor	Start: 115.00, Finish: 120.00
 ToGo Home	Arrive: N/A
-Doctor	15.00	15.00	20.00	None	0.00	
-Blood	None	None	None	None	None	
-Scan	20.00	20.00	33.42	33.42	1.00	
-Revisit	33.42	105.00	110.00	None	0.00	
+Doctor	60.00	60.00	65.00	None	0.00	
+Blood	65.00	65.00	68.67	113.67	1.00	
+Scan	68.67	68.67	79.27	79.27	0.00	
+Revisit	113.67	115.00	120.00	None	0.00	
 --------------------------------------------------------
-Event Count: 59 Current Time: 105.00 
-Active Station: Blood-1
-========== Patient ID: 00013 ==========
-At Blood	Start: 105.00, Finish: 108.02, Report: 153.02
-To Scan	Arrive: 108.02
-Doctor	100.00	100.00	105.00	None	0.00	
-Blood	105.00	105.00	108.02	153.02	1.00	
-Scan	108.02	None	None	None	None	
+Event Count: 46 Current Time: 118.40 
+Active Station: Scan-1
+========== Patient ID: 00055 ==========
+At Scan	Start: 118.40, Finish: 128.59, Report: 128.59
+To Doctor	Arrive: 128.59
+Doctor	66.05	105.00	110.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	110.00	118.40	128.59	128.59	1.00	
+Revisit	128.59	None	None	None	None	
+--------------------------------------------------------
+Event Count: 47 Current Time: 118.53 
+Active Station: Scan-0
+========== Patient ID: 00056 ==========
+At Scan	Start: 118.53, Finish: 131.58, Report: 131.58
+To Doctor	Arrive: 131.58
+Doctor	76.11	110.00	115.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	115.00	118.53	131.58	131.58	0.00	
+Revisit	131.58	None	None	None	None	
+--------------------------------------------------------
+Event Count: 48 Current Time: 120.00 
+Active Station: Doctor-0
+========== Patient ID: 00005 ==========
+At Doctor	Start: 120.00, Finish: 125.00
+To Blood	Arrive: 125.00
+Doctor	120.00	120.00	125.00	None	0.00	
+Blood	125.00	None	None	None	None	
+Scan	None	None	None	None	None	
 Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 60 Current Time: 108.64 
-Active Station: Scan-0
-========== Patient ID: 00012 ==========
-At Scan	Start: 108.64, Finish: 122.72, Report: 122.72
-To Doctor	Arrive: 135.32
-Doctor	95.00	95.00	100.00	None	0.00	
-Blood	100.00	100.00	105.32	135.32	0.00	
-Scan	105.32	108.64	122.72	122.72	0.00	
-Revisit	135.32	None	None	None	None	
+Event Count: 49 Current Time: 125.00 
+Active Station: Doctor-0
+========== Patient ID: 00006 ==========
+At Doctor	Start: 125.00, Finish: 130.00
+To Blood	Arrive: 130.00
+Doctor	125.00	125.00	130.00	None	0.00	
+Blood	130.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 61 Current Time: 109.04 
+Event Count: 50 Current Time: 125.00 
 Active Station: Blood-0
-========== Patient ID: 00043 ==========
-At Blood	Start: 109.04, Finish: 114.16, Report: 144.16
+========== Patient ID: 00005 ==========
+At Blood	Start: 125.00, Finish: 129.51, Report: 159.51
+To Doctor	Arrive: 159.51
+Doctor	120.00	120.00	125.00	None	0.00	
+Blood	125.00	125.00	129.51	159.51	0.00	
+Scan	None	None	None	None	None	
+Revisit	159.51	None	None	None	None	
+--------------------------------------------------------
+Event Count: 51 Current Time: 125.87 
+Active Station: Blood-1
+========== Patient ID: 00112 ==========
+At Blood	Start: 125.87, Finish: 129.03, Report: 159.03
 To Go Home	Arrive: N/A
 Doctor	None	None	None	None	None	
-Blood	109.04	109.04	114.16	144.16	0.00	
+Blood	125.87	125.87	129.03	159.03	1.00	
 Scan	None	None	None	None	None	
 Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 62 Current Time: 110.00 
+Event Count: 52 Current Time: 129.28 
+Active Station: Scan-1
+========== Patient ID: 00147 ==========
+At Scan	Start: 129.28, Finish: 140.67, Report: 140.67
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	None	None	None	None	None	
+Scan	129.28	129.28	140.67	140.67	1.00	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 53 Current Time: 130.00 
+Active Station: Doctor-0
+========== Patient ID: 00054 ==========
+At Doctor	Start: 130.00, Finish: 135.00
+ToGo Home	Arrive: N/A
+Doctor	55.88	75.00	80.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	80.00	80.00	91.62	91.62	0.00	
+Revisit	91.62	130.00	135.00	None	0.00	
+--------------------------------------------------------
+Event Count: 54 Current Time: 130.00 
+Active Station: Blood-0
+========== Patient ID: 00006 ==========
+At Blood	Start: 130.00, Finish: 135.72, Report: 165.72
+To Scan	Arrive: 135.72
+Doctor	125.00	125.00	130.00	None	0.00	
+Blood	130.00	130.00	135.72	165.72	0.00	
+Scan	135.72	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 55 Current Time: 135.00 
+Active Station: Doctor-0
+========== Patient ID: 00007 ==========
+At Doctor	Start: 135.00, Finish: 140.00
+To Blood	Arrive: 140.00
+Doctor	135.00	135.00	140.00	None	0.00	
+Blood	140.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 56 Current Time: 135.72 
+Active Station: Scan-0
+========== Patient ID: 00006 ==========
+At Scan	Start: 135.72, Finish: 146.92, Report: 146.92
+To Doctor	Arrive: 165.72
+Doctor	125.00	125.00	130.00	None	0.00	
+Blood	130.00	130.00	135.72	165.72	0.00	
+Scan	135.72	135.72	146.92	146.92	0.00	
+Revisit	165.72	None	None	None	None	
+--------------------------------------------------------
+Event Count: 57 Current Time: 140.00 
+Active Station: Doctor-0
+========== Patient ID: 00008 ==========
+At Doctor	Start: 140.00, Finish: 145.00
+To Blood	Arrive: 145.00
+Doctor	140.00	140.00	145.00	None	0.00	
+Blood	145.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 58 Current Time: 140.00 
+Active Station: Blood-0
+========== Patient ID: 00007 ==========
+At Blood	Start: 140.00, Finish: 143.43, Report: 173.43
+To Doctor	Arrive: 173.43
+Doctor	135.00	135.00	140.00	None	0.00	
+Blood	140.00	140.00	143.43	173.43	0.00	
+Scan	None	None	None	None	None	
+Revisit	173.43	None	None	None	None	
+--------------------------------------------------------
+Event Count: 59 Current Time: 141.31 
+Active Station: Blood-1
+========== Patient ID: 00113 ==========
+At Blood	Start: 141.31, Finish: 145.78, Report: 175.78
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	141.31	141.31	145.78	175.78	1.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 60 Current Time: 145.00 
+Active Station: Doctor-0
+========== Patient ID: 00009 ==========
+At Doctor	Start: 145.00, Finish: 150.00
+To Scan	Arrive: 150.00
+Doctor	145.00	145.00	150.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	150.00	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 61 Current Time: 145.00 
+Active Station: Blood-0
+========== Patient ID: 00008 ==========
+At Blood	Start: 145.00, Finish: 150.96, Report: 195.96
+To Doctor	Arrive: 195.96
+Doctor	140.00	140.00	145.00	None	0.00	
+Blood	145.00	145.00	150.96	195.96	0.00	
+Scan	None	None	None	None	None	
+Revisit	195.96	None	None	None	None	
+--------------------------------------------------------
+Event Count: 62 Current Time: 150.00 
+Active Station: Doctor-0
+========== Patient ID: 00002 ==========
+At Doctor	Start: 150.00, Finish: 155.00
+ToGo Home	Arrive: N/A
+Doctor	80.00	80.00	85.00	None	0.00	
+Blood	85.00	85.00	89.56	119.56	0.00	
+Scan	89.56	89.56	103.07	103.07	2.00	
+Revisit	119.56	150.00	155.00	None	0.00	
+--------------------------------------------------------
+Event Count: 63 Current Time: 150.00 
+Active Station: Scan-0
+========== Patient ID: 00009 ==========
+At Scan	Start: 150.00, Finish: 161.21, Report: 161.21
+To Doctor	Arrive: 161.21
+Doctor	145.00	145.00	150.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	150.00	150.00	161.21	161.21	0.00	
+Revisit	161.21	None	None	None	None	
+--------------------------------------------------------
+Event Count: 64 Current Time: 154.30 
+Active Station: Scan-1
+========== Patient ID: 00148 ==========
+At Scan	Start: 154.30, Finish: 167.66, Report: 167.66
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	None	None	None	None	None	
+Scan	154.30	154.30	167.66	167.66	1.00	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 65 Current Time: 155.00 
+Active Station: Doctor-0
+========== Patient ID: 00010 ==========
+At Doctor	Start: 155.00, Finish: 160.00
+To Scan	Arrive: 160.00
+Doctor	155.00	155.00	160.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	160.00	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 66 Current Time: 156.64 
+Active Station: Blood-0
+========== Patient ID: 00114 ==========
+At Blood	Start: 156.64, Finish: 161.93, Report: 191.93
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	156.64	156.64	161.93	191.93	0.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 67 Current Time: 160.00 
+Active Station: Doctor-0
+========== Patient ID: 00003 ==========
+At Doctor	Start: 160.00, Finish: 165.00
+ToGo Home	Arrive: N/A
+Doctor	95.00	95.00	100.00	None	0.00	
+Blood	100.00	100.00	105.92	135.92	0.00	
+Scan	105.92	105.92	118.40	118.40	1.00	
+Revisit	135.92	160.00	165.00	None	0.00	
+--------------------------------------------------------
+Event Count: 68 Current Time: 160.00 
+Active Station: Scan-2
+========== Patient ID: 00010 ==========
+At Scan	Start: 160.00, Finish: 171.19, Report: 171.19
+To Doctor	Arrive: 171.19
+Doctor	155.00	155.00	160.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	160.00	160.00	171.19	171.19	2.00	
+Revisit	171.19	None	None	None	None	
+--------------------------------------------------------
+Event Count: 69 Current Time: 165.00 
+Active Station: Doctor-0
+========== Patient ID: 00011 ==========
+At Doctor	Start: 165.00, Finish: 170.00
+To Blood	Arrive: 170.00
+Doctor	165.00	165.00	170.00	None	0.00	
+Blood	170.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 70 Current Time: 170.00 
+Active Station: Doctor-0
+========== Patient ID: 00004 ==========
+At Doctor	Start: 170.00, Finish: 175.00
+ToGo Home	Arrive: N/A
+Doctor	100.00	100.00	105.00	None	0.00	
+Blood	105.00	105.00	108.76	138.76	1.00	
+Scan	108.76	108.76	120.26	120.26	2.00	
+Revisit	138.76	170.00	175.00	None	0.00	
+--------------------------------------------------------
+Event Count: 71 Current Time: 170.00 
+Active Station: Blood-0
+========== Patient ID: 00011 ==========
+At Blood	Start: 170.00, Finish: 175.18, Report: 205.18
+To Scan	Arrive: 175.18
+Doctor	165.00	165.00	170.00	None	0.00	
+Blood	170.00	170.00	175.18	205.18	0.00	
+Scan	175.18	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 72 Current Time: 172.43 
+Active Station: Blood-1
+========== Patient ID: 00115 ==========
+At Blood	Start: 172.43, Finish: 176.53, Report: 206.53
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	172.43	172.43	176.53	206.53	1.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 73 Current Time: 175.00 
+Active Station: Doctor-0
+========== Patient ID: 00055 ==========
+At Doctor	Start: 175.00, Finish: 180.00
+ToGo Home	Arrive: N/A
+Doctor	66.05	105.00	110.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	110.00	118.40	128.59	128.59	1.00	
+Revisit	128.59	175.00	180.00	None	0.00	
+--------------------------------------------------------
+Event Count: 74 Current Time: 175.18 
+Active Station: Scan-0
+========== Patient ID: 00011 ==========
+At Scan	Start: 175.18, Finish: 188.35, Report: 188.35
+To Doctor	Arrive: 205.18
+Doctor	165.00	165.00	170.00	None	0.00	
+Blood	170.00	170.00	175.18	205.18	0.00	
+Scan	175.18	175.18	188.35	188.35	0.00	
+Revisit	205.18	None	None	None	None	
+--------------------------------------------------------
+Event Count: 75 Current Time: 179.42 
+Active Station: Scan-1
+========== Patient ID: 00149 ==========
+At Scan	Start: 179.42, Finish: 192.58, Report: 192.58
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	None	None	None	None	None	
+Scan	179.42	179.42	192.58	192.58	1.00	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 76 Current Time: 180.00 
+Active Station: Doctor-0
+========== Patient ID: 00012 ==========
+At Doctor	Start: 180.00, Finish: 185.00
+To Scan	Arrive: 185.00
+Doctor	180.00	180.00	185.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	185.00	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 77 Current Time: 185.00 
+Active Station: Doctor-0
+========== Patient ID: 00056 ==========
+At Doctor	Start: 185.00, Finish: 190.00
+ToGo Home	Arrive: N/A
+Doctor	76.11	110.00	115.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	115.00	118.53	131.58	131.58	0.00	
+Revisit	131.58	185.00	190.00	None	0.00	
+--------------------------------------------------------
+Event Count: 78 Current Time: 185.00 
+Active Station: Scan-2
+========== Patient ID: 00012 ==========
+At Scan	Start: 185.00, Finish: 197.68, Report: 197.68
+To Doctor	Arrive: 197.68
+Doctor	180.00	180.00	185.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	185.00	185.00	197.68	197.68	2.00	
+Revisit	197.68	None	None	None	None	
+--------------------------------------------------------
+Event Count: 79 Current Time: 187.58 
+Active Station: Blood-0
+========== Patient ID: 00116 ==========
+At Blood	Start: 187.58, Finish: 190.85, Report: 235.85
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	187.58	187.58	190.85	235.85	0.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 80 Current Time: 190.00 
+Active Station: Doctor-0
+========== Patient ID: 00005 ==========
+At Doctor	Start: 190.00, Finish: 195.00
+ToGo Home	Arrive: N/A
+Doctor	120.00	120.00	125.00	None	0.00	
+Blood	125.00	125.00	129.51	159.51	0.00	
+Scan	None	None	None	None	None	
+Revisit	159.51	190.00	195.00	None	0.00	
+--------------------------------------------------------
+Event Count: 81 Current Time: 195.00 
+Active Station: Doctor-0
+========== Patient ID: 00013 ==========
+At Doctor	Start: 195.00, Finish: 200.00
+To Blood	Arrive: 200.00
+Doctor	195.00	195.00	200.00	None	0.00	
+Blood	200.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 82 Current Time: 200.00 
+Active Station: Doctor-0
+========== Patient ID: 00006 ==========
+At Doctor	Start: 200.00, Finish: 205.00
+ToGo Home	Arrive: N/A
+Doctor	125.00	125.00	130.00	None	0.00	
+Blood	130.00	130.00	135.72	165.72	0.00	
+Scan	135.72	135.72	146.92	146.92	0.00	
+Revisit	165.72	200.00	205.00	None	0.00	
+--------------------------------------------------------
+Event Count: 83 Current Time: 200.00 
+Active Station: Blood-0
+========== Patient ID: 00013 ==========
+At Blood	Start: 200.00, Finish: 205.51, Report: 250.51
+To Scan	Arrive: 205.51
+Doctor	195.00	195.00	200.00	None	0.00	
+Blood	200.00	200.00	205.51	250.51	0.00	
+Scan	205.51	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 84 Current Time: 204.20 
+Active Station: Blood-1
+========== Patient ID: 00117 ==========
+At Blood	Start: 204.20, Finish: 208.16, Report: 253.16
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	204.20	204.20	208.16	253.16	1.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 85 Current Time: 204.45 
+Active Station: Scan-0
+========== Patient ID: 00150 ==========
+At Scan	Start: 204.45, Finish: 215.38, Report: 215.38
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	None	None	None	None	None	
+Scan	204.45	204.45	215.38	215.38	0.00	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 86 Current Time: 205.00 
+Active Station: Doctor-0
+========== Patient ID: 00007 ==========
+At Doctor	Start: 205.00, Finish: 210.00
+ToGo Home	Arrive: N/A
+Doctor	135.00	135.00	140.00	None	0.00	
+Blood	140.00	140.00	143.43	173.43	0.00	
+Scan	None	None	None	None	None	
+Revisit	173.43	205.00	210.00	None	0.00	
+--------------------------------------------------------
+Event Count: 87 Current Time: 205.51 
+Active Station: Scan-1
+========== Patient ID: 00013 ==========
+At Scan	Start: 205.51, Finish: 215.71, Report: 215.71
+To Doctor	Arrive: 250.51
+Doctor	195.00	195.00	200.00	None	0.00	
+Blood	200.00	200.00	205.51	250.51	0.00	
+Scan	205.51	205.51	215.71	215.71	1.00	
+Revisit	250.51	None	None	None	None	
+--------------------------------------------------------
+Event Count: 88 Current Time: 210.00 
+Active Station: Doctor-0
+========== Patient ID: 00008 ==========
+At Doctor	Start: 210.00, Finish: 215.00
+ToGo Home	Arrive: N/A
+Doctor	140.00	140.00	145.00	None	0.00	
+Blood	145.00	145.00	150.96	195.96	0.00	
+Scan	None	None	None	None	None	
+Revisit	195.96	210.00	215.00	None	0.00	
+--------------------------------------------------------
+Event Count: 89 Current Time: 215.00 
 Active Station: Doctor-0
 ========== Patient ID: 00014 ==========
-At Doctor	Start: 110.00, Finish: 115.00
-To Blood	Arrive: 115.00
-Doctor	110.00	110.00	115.00	None	0.00	
-Blood	115.00	None	None	None	None	
+At Doctor	Start: 215.00, Finish: 220.00
+To Blood	Arrive: 220.00
+Doctor	215.00	215.00	220.00	None	0.00	
+Blood	220.00	None	None	None	None	
 Scan	None	None	None	None	None	
 Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 63 Current Time: 112.23 
-Active Station: Scan-2
-========== Patient ID: 00013 ==========
-At Scan	Start: 112.23, Finish: 125.88, Report: 125.88
-To Doctor	Arrive: 153.02
-Doctor	100.00	100.00	105.00	None	0.00	
-Blood	105.00	105.00	108.02	153.02	1.00	
-Scan	108.02	112.23	125.88	125.88	2.00	
-Revisit	153.02	None	None	None	None	
+Event Count: 90 Current Time: 219.28 
+Active Station: Blood-0
+========== Patient ID: 00118 ==========
+At Blood	Start: 219.28, Finish: 224.05, Report: 254.05
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	219.28	219.28	224.05	254.05	0.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 64 Current Time: 115.00 
+Event Count: 91 Current Time: 220.00 
 Active Station: Doctor-0
 ========== Patient ID: 00015 ==========
-At Doctor	Start: 115.00, Finish: 120.00
-To Blood	Arrive: 120.00
-Doctor	115.00	115.00	120.00	None	0.00	
-Blood	120.00	None	None	None	None	
+At Doctor	Start: 220.00, Finish: 225.00
+To Blood	Arrive: 225.00
+Doctor	220.00	220.00	225.00	None	0.00	
+Blood	225.00	None	None	None	None	
 Scan	None	None	None	None	None	
 Revisit	None	None	None	None	None	
 --------------------------------------------------------
-Event Count: 65 Current Time: 115.00 
-Active Station: Blood-0
+Event Count: 92 Current Time: 220.00 
+Active Station: Blood-1
 ========== Patient ID: 00014 ==========
-At Blood	Start: 115.00, Finish: 120.31, Report: 165.31
-To Scan	Arrive: 120.31
-Doctor	110.00	110.00	115.00	None	0.00	
-Blood	115.00	115.00	120.31	165.31	0.00	
-Scan	120.31	None	None	None	None	
+At Blood	Start: 220.00, Finish: 225.03, Report: 270.03
+To Scan	Arrive: 225.03
+Doctor	215.00	215.00	220.00	None	0.00	
+Blood	220.00	220.00	225.03	270.03	1.00	
+Scan	225.03	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 93 Current Time: 225.00 
+Active Station: Doctor-0
+========== Patient ID: 00016 ==========
+At Doctor	Start: 225.00, Finish: 230.00
+To Blood	Arrive: 230.00
+Doctor	225.00	225.00	230.00	None	0.00	
+Blood	230.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 94 Current Time: 225.00 
+Active Station: Blood-0
+========== Patient ID: 00015 ==========
+At Blood	Start: 225.00, Finish: 228.05, Report: 258.05
+To Doctor	Arrive: 258.05
+Doctor	220.00	220.00	225.00	None	0.00	
+Blood	225.00	225.00	228.05	258.05	0.00	
+Scan	None	None	None	None	None	
+Revisit	258.05	None	None	None	None	
+--------------------------------------------------------
+Event Count: 95 Current Time: 225.03 
+Active Station: Scan-0
+========== Patient ID: 00014 ==========
+At Scan	Start: 225.03, Finish: 237.59, Report: 237.59
+To Doctor	Arrive: 270.03
+Doctor	215.00	215.00	220.00	None	0.00	
+Blood	220.00	220.00	225.03	270.03	1.00	
+Scan	225.03	225.03	237.59	237.59	0.00	
+Revisit	270.03	None	None	None	None	
+--------------------------------------------------------
+Event Count: 96 Current Time: 230.00 
+Active Station: Doctor-0
+========== Patient ID: 00017 ==========
+At Doctor	Start: 230.00, Finish: 235.00
+To Blood	Arrive: 235.00
+Doctor	230.00	230.00	235.00	None	0.00	
+Blood	235.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 97 Current Time: 230.00 
+Active Station: Blood-0
+========== Patient ID: 00016 ==========
+At Blood	Start: 230.00, Finish: 233.68, Report: 278.68
+To Doctor	Arrive: 278.68
+Doctor	225.00	225.00	230.00	None	0.00	
+Blood	230.00	230.00	233.68	278.68	0.00	
+Scan	None	None	None	None	None	
+Revisit	278.68	None	None	None	None	
+--------------------------------------------------------
+Event Count: 98 Current Time: 230.46 
+Active Station: Scan-1
+========== Patient ID: 00151 ==========
+At Scan	Start: 230.46, Finish: 243.69, Report: 243.69
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	None	None	None	None	None	
+Scan	230.46	230.46	243.69	243.69	1.00	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 99 Current Time: 235.00 
+Active Station: Doctor-0
+========== Patient ID: 00018 ==========
+At Doctor	Start: 235.00, Finish: 240.00
+To Blood	Arrive: 240.00
+Doctor	235.00	235.00	240.00	None	0.00	
+Blood	240.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 100 Current Time: 235.00 
+Active Station: Blood-0
+========== Patient ID: 00017 ==========
+At Blood	Start: 235.00, Finish: 238.52, Report: 268.52
+To Scan	Arrive: 238.52
+Doctor	230.00	230.00	235.00	None	0.00	
+Blood	235.00	235.00	238.52	268.52	0.00	
+Scan	238.52	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 101 Current Time: 238.52 
+Active Station: Scan-0
+========== Patient ID: 00017 ==========
+At Scan	Start: 238.52, Finish: 251.98, Report: 251.98
+To Doctor	Arrive: 268.52
+Doctor	230.00	230.00	235.00	None	0.00	
+Blood	235.00	235.00	238.52	268.52	0.00	
+Scan	238.52	238.52	251.98	251.98	0.00	
+Revisit	268.52	None	None	None	None	
+--------------------------------------------------------
+Event Count: 102 Current Time: 238.61 
+Active Station: Blood-0
+========== Patient ID: 00119 ==========
+At Blood	Start: 238.61, Finish: 242.77, Report: 287.77
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	238.61	238.61	242.77	287.77	0.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 103 Current Time: 240.00 
+Active Station: Doctor-0
+========== Patient ID: 00009 ==========
+At Doctor	Start: 240.00, Finish: 245.00
+ToGo Home	Arrive: N/A
+Doctor	145.00	145.00	150.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	150.00	150.00	161.21	161.21	0.00	
+Revisit	161.21	240.00	245.00	None	0.00	
+--------------------------------------------------------
+Event Count: 104 Current Time: 240.00 
+Active Station: Blood-1
+========== Patient ID: 00018 ==========
+At Blood	Start: 240.00, Finish: 245.81, Report: 290.81
+To Doctor	Arrive: 290.81
+Doctor	235.00	235.00	240.00	None	0.00	
+Blood	240.00	240.00	245.81	290.81	1.00	
+Scan	None	None	None	None	None	
+Revisit	290.81	None	None	None	None	
+--------------------------------------------------------
+Event Count: 105 Current Time: 245.00 
+Active Station: Doctor-0
+========== Patient ID: 00010 ==========
+At Doctor	Start: 245.00, Finish: 250.00
+ToGo Home	Arrive: N/A
+Doctor	155.00	155.00	160.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	160.00	160.00	171.19	171.19	2.00	
+Revisit	171.19	245.00	250.00	None	0.00	
+--------------------------------------------------------
+Event Count: 106 Current Time: 250.00 
+Active Station: Doctor-0
+========== Patient ID: 00019 ==========
+At Doctor	Start: 250.00, Finish: 255.00
+To Blood	Arrive: 255.00
+Doctor	250.00	250.00	255.00	None	0.00	
+Blood	255.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 107 Current Time: 255.00 
+Active Station: Doctor-0
+========== Patient ID: 00011 ==========
+At Doctor	Start: 255.00, Finish: 260.00
+ToGo Home	Arrive: N/A
+Doctor	165.00	165.00	170.00	None	0.00	
+Blood	170.00	170.00	175.18	205.18	0.00	
+Scan	175.18	175.18	188.35	188.35	0.00	
+Revisit	205.18	255.00	260.00	None	0.00	
+--------------------------------------------------------
+Event Count: 108 Current Time: 255.00 
+Active Station: Blood-0
+========== Patient ID: 00019 ==========
+At Blood	Start: 255.00, Finish: 258.41, Report: 288.41
+To Scan	Arrive: 258.41
+Doctor	250.00	250.00	255.00	None	0.00	
+Blood	255.00	255.00	258.41	288.41	0.00	
+Scan	258.41	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 109 Current Time: 255.09 
+Active Station: Blood-1
+========== Patient ID: 00120 ==========
+At Blood	Start: 255.09, Finish: 259.11, Report: 304.11
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	255.09	255.09	259.11	304.11	1.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 110 Current Time: 255.84 
+Active Station: Scan-0
+========== Patient ID: 00152 ==========
+At Scan	Start: 255.84, Finish: 266.40, Report: 266.40
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	None	None	None	None	None	
+Scan	255.84	255.84	266.40	266.40	0.00	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 111 Current Time: 258.41 
+Active Station: Scan-1
+========== Patient ID: 00019 ==========
+At Scan	Start: 258.41, Finish: 273.04, Report: 273.04
+To Doctor	Arrive: 288.41
+Doctor	250.00	250.00	255.00	None	0.00	
+Blood	255.00	255.00	258.41	288.41	0.00	
+Scan	258.41	258.41	273.04	273.04	1.00	
+Revisit	288.41	None	None	None	None	
+--------------------------------------------------------
+Event Count: 112 Current Time: 260.00 
+Active Station: Doctor-0
+========== Patient ID: 00020 ==========
+At Doctor	Start: 260.00, Finish: 265.00
+To Scan	Arrive: 265.00
+Doctor	260.00	260.00	265.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	265.00	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 113 Current Time: 265.00 
+Active Station: Doctor-0
+========== Patient ID: 00012 ==========
+At Doctor	Start: 265.00, Finish: 270.00
+ToGo Home	Arrive: N/A
+Doctor	180.00	180.00	185.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	185.00	185.00	197.68	197.68	2.00	
+Revisit	197.68	265.00	270.00	None	0.00	
+--------------------------------------------------------
+Event Count: 114 Current Time: 265.00 
+Active Station: Scan-2
+========== Patient ID: 00020 ==========
+At Scan	Start: 265.00, Finish: 279.39, Report: 279.39
+To Doctor	Arrive: 279.39
+Doctor	260.00	260.00	265.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	265.00	265.00	279.39	279.39	2.00	
+Revisit	279.39	None	None	None	None	
+--------------------------------------------------------
+Event Count: 115 Current Time: 270.00 
+Active Station: Doctor-0
+========== Patient ID: 00021 ==========
+At Doctor	Start: 270.00, Finish: 275.00
+To Blood	Arrive: 275.00
+Doctor	270.00	270.00	275.00	None	0.00	
+Blood	275.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 116 Current Time: 270.31 
+Active Station: Blood-0
+========== Patient ID: 00121 ==========
+At Blood	Start: 270.31, Finish: 274.09, Report: 304.09
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	270.31	270.31	274.09	304.09	0.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 117 Current Time: 275.00 
+Active Station: Doctor-0
+========== Patient ID: 00013 ==========
+At Doctor	Start: 275.00, Finish: 280.00
+ToGo Home	Arrive: N/A
+Doctor	195.00	195.00	200.00	None	0.00	
+Blood	200.00	200.00	205.51	250.51	0.00	
+Scan	205.51	205.51	215.71	215.71	1.00	
+Revisit	250.51	275.00	280.00	None	0.00	
+--------------------------------------------------------
+Event Count: 118 Current Time: 275.00 
+Active Station: Blood-0
+========== Patient ID: 00021 ==========
+At Blood	Start: 275.00, Finish: 279.98, Report: 309.98
+To Scan	Arrive: 279.98
+Doctor	270.00	270.00	275.00	None	0.00	
+Blood	275.00	275.00	279.98	309.98	0.00	
+Scan	279.98	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 119 Current Time: 279.98 
+Active Station: Scan-0
+========== Patient ID: 00021 ==========
+At Scan	Start: 279.98, Finish: 294.07, Report: 294.07
+To Doctor	Arrive: 309.98
+Doctor	270.00	270.00	275.00	None	0.00	
+Blood	275.00	275.00	279.98	309.98	0.00	
+Scan	279.98	279.98	294.07	294.07	0.00	
+Revisit	309.98	None	None	None	None	
+--------------------------------------------------------
+Event Count: 120 Current Time: 280.00 
+Active Station: Doctor-0
+========== Patient ID: 00015 ==========
+At Doctor	Start: 280.00, Finish: 285.00
+ToGo Home	Arrive: N/A
+Doctor	220.00	220.00	225.00	None	0.00	
+Blood	225.00	225.00	228.05	258.05	0.00	
+Scan	None	None	None	None	None	
+Revisit	258.05	280.00	285.00	None	0.00	
+--------------------------------------------------------
+Event Count: 121 Current Time: 281.55 
+Active Station: Scan-1
+========== Patient ID: 00153 ==========
+At Scan	Start: 281.55, Finish: 294.32, Report: 294.32
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	None	None	None	None	None	
+Scan	281.55	281.55	294.32	294.32	1.00	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 122 Current Time: 285.00 
+Active Station: Doctor-0
+========== Patient ID: 00022 ==========
+At Doctor	Start: 285.00, Finish: 290.00
+To Blood	Arrive: 290.00
+Doctor	285.00	285.00	290.00	None	0.00	
+Blood	290.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 123 Current Time: 285.32 
+Active Station: Blood-0
+========== Patient ID: 00122 ==========
+At Blood	Start: 285.32, Finish: 289.91, Report: 319.91
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	285.32	285.32	289.91	319.91	0.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 124 Current Time: 290.00 
+Active Station: Doctor-0
+========== Patient ID: 00014 ==========
+At Doctor	Start: 290.00, Finish: 295.00
+ToGo Home	Arrive: N/A
+Doctor	215.00	215.00	220.00	None	0.00	
+Blood	220.00	220.00	225.03	270.03	1.00	
+Scan	225.03	225.03	237.59	237.59	0.00	
+Revisit	270.03	290.00	295.00	None	0.00	
+--------------------------------------------------------
+Event Count: 125 Current Time: 290.00 
+Active Station: Blood-0
+========== Patient ID: 00022 ==========
+At Blood	Start: 290.00, Finish: 293.73, Report: 323.73
+To Doctor	Arrive: 323.73
+Doctor	285.00	285.00	290.00	None	0.00	
+Blood	290.00	290.00	293.73	323.73	0.00	
+Scan	None	None	None	None	None	
+Revisit	323.73	None	None	None	None	
+--------------------------------------------------------
+Event Count: 126 Current Time: 295.00 
+Active Station: Doctor-0
+========== Patient ID: 00016 ==========
+At Doctor	Start: 295.00, Finish: 300.00
+ToGo Home	Arrive: N/A
+Doctor	225.00	225.00	230.00	None	0.00	
+Blood	230.00	230.00	233.68	278.68	0.00	
+Scan	None	None	None	None	None	
+Revisit	278.68	295.00	300.00	None	0.00	
+--------------------------------------------------------
+Event Count: 127 Current Time: 300.00 
+Active Station: Doctor-0
+========== Patient ID: 00017 ==========
+At Doctor	Start: 300.00, Finish: 305.00
+ToGo Home	Arrive: N/A
+Doctor	230.00	230.00	235.00	None	0.00	
+Blood	235.00	235.00	238.52	268.52	0.00	
+Scan	238.52	238.52	251.98	251.98	0.00	
+Revisit	268.52	300.00	305.00	None	0.00	
+--------------------------------------------------------
+Event Count: 128 Current Time: 302.01 
+Active Station: Blood-0
+========== Patient ID: 00123 ==========
+At Blood	Start: 302.01, Finish: 305.29, Report: 335.29
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	302.01	302.01	305.29	335.29	0.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 129 Current Time: 305.00 
+Active Station: Doctor-0
+========== Patient ID: 00023 ==========
+At Doctor	Start: 305.00, Finish: 310.00
+To Blood	Arrive: 310.00
+Doctor	305.00	305.00	310.00	None	0.00	
+Blood	310.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 130 Current Time: 308.93 
+Active Station: Scan-0
+========== Patient ID: 00154 ==========
+At Scan	Start: 308.93, Finish: 323.41, Report: 323.41
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	None	None	None	None	None	
+Scan	308.93	308.93	323.41	323.41	0.00	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 131 Current Time: 310.00 
+Active Station: Doctor-0
+========== Patient ID: 00018 ==========
+At Doctor	Start: 310.00, Finish: 315.00
+ToGo Home	Arrive: N/A
+Doctor	235.00	235.00	240.00	None	0.00	
+Blood	240.00	240.00	245.81	290.81	1.00	
+Scan	None	None	None	None	None	
+Revisit	290.81	310.00	315.00	None	0.00	
+--------------------------------------------------------
+Event Count: 132 Current Time: 310.00 
+Active Station: Blood-0
+========== Patient ID: 00023 ==========
+At Blood	Start: 310.00, Finish: 315.70, Report: 345.70
+To Doctor	Arrive: 345.70
+Doctor	305.00	305.00	310.00	None	0.00	
+Blood	310.00	310.00	315.70	345.70	0.00	
+Scan	None	None	None	None	None	
+Revisit	345.70	None	None	None	None	
+--------------------------------------------------------
+Event Count: 133 Current Time: 315.00 
+Active Station: Doctor-0
+========== Patient ID: 00024 ==========
+At Doctor	Start: 315.00, Finish: 320.00
+To Blood	Arrive: 320.00
+Doctor	315.00	315.00	320.00	None	0.00	
+Blood	320.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 134 Current Time: 318.23 
+Active Station: Blood-0
+========== Patient ID: 00124 ==========
+At Blood	Start: 318.23, Finish: 323.13, Report: 353.13
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	318.23	318.23	323.13	353.13	0.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 135 Current Time: 320.00 
+Active Station: Doctor-0
+========== Patient ID: 00019 ==========
+At Doctor	Start: 320.00, Finish: 325.00
+ToGo Home	Arrive: N/A
+Doctor	250.00	250.00	255.00	None	0.00	
+Blood	255.00	255.00	258.41	288.41	0.00	
+Scan	258.41	258.41	273.04	273.04	1.00	
+Revisit	288.41	320.00	325.00	None	0.00	
+--------------------------------------------------------
+Event Count: 136 Current Time: 320.00 
+Active Station: Blood-1
+========== Patient ID: 00024 ==========
+At Blood	Start: 320.00, Finish: 324.02, Report: 354.02
+To Scan	Arrive: 324.02
+Doctor	315.00	315.00	320.00	None	0.00	
+Blood	320.00	320.00	324.02	354.02	1.00	
+Scan	324.02	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 137 Current Time: 324.02 
+Active Station: Scan-0
+========== Patient ID: 00024 ==========
+At Scan	Start: 324.02, Finish: 335.76, Report: 335.76
+To Doctor	Arrive: 354.02
+Doctor	315.00	315.00	320.00	None	0.00	
+Blood	320.00	320.00	324.02	354.02	1.00	
+Scan	324.02	324.02	335.76	335.76	0.00	
+Revisit	354.02	None	None	None	None	
+--------------------------------------------------------
+Event Count: 138 Current Time: 325.00 
+Active Station: Doctor-0
+========== Patient ID: 00020 ==========
+At Doctor	Start: 325.00, Finish: 330.00
+ToGo Home	Arrive: N/A
+Doctor	260.00	260.00	265.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	265.00	265.00	279.39	279.39	2.00	
+Revisit	279.39	325.00	330.00	None	0.00	
+--------------------------------------------------------
+Event Count: 139 Current Time: 330.00 
+Active Station: Doctor-0
+========== Patient ID: 00021 ==========
+At Doctor	Start: 330.00, Finish: 335.00
+ToGo Home	Arrive: N/A
+Doctor	270.00	270.00	275.00	None	0.00	
+Blood	275.00	275.00	279.98	309.98	0.00	
+Scan	279.98	279.98	294.07	294.07	0.00	
+Revisit	309.98	330.00	335.00	None	0.00	
+--------------------------------------------------------
+Event Count: 140 Current Time: 334.22 
+Active Station: Scan-1
+========== Patient ID: 00155 ==========
+At Scan	Start: 334.22, Finish: 347.85, Report: 347.85
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	None	None	None	None	None	
+Scan	334.22	334.22	347.85	347.85	1.00	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 141 Current Time: 334.54 
+Active Station: Blood-0
+========== Patient ID: 00125 ==========
+At Blood	Start: 334.54, Finish: 340.23, Report: 370.23
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	334.54	334.54	340.23	370.23	0.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 142 Current Time: 335.00 
+Active Station: Doctor-0
+========== Patient ID: 00025 ==========
+At Doctor	Start: 335.00, Finish: 340.00
+To Blood	Arrive: 340.00
+Doctor	335.00	335.00	340.00	None	0.00	
+Blood	340.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 143 Current Time: 340.00 
+Active Station: Doctor-0
+========== Patient ID: 00022 ==========
+At Doctor	Start: 340.00, Finish: 345.00
+ToGo Home	Arrive: N/A
+Doctor	285.00	285.00	290.00	None	0.00	
+Blood	290.00	290.00	293.73	323.73	0.00	
+Scan	None	None	None	None	None	
+Revisit	323.73	340.00	345.00	None	0.00	
+--------------------------------------------------------
+Event Count: 144 Current Time: 340.00 
+Active Station: Blood-1
+========== Patient ID: 00025 ==========
+At Blood	Start: 340.00, Finish: 345.66, Report: 375.66
+To Doctor	Arrive: 375.66
+Doctor	335.00	335.00	340.00	None	0.00	
+Blood	340.00	340.00	345.66	375.66	1.00	
+Scan	None	None	None	None	None	
+Revisit	375.66	None	None	None	None	
+--------------------------------------------------------
+Event Count: 145 Current Time: 345.00 
+Active Station: Doctor-0
+========== Patient ID: 00026 ==========
+At Doctor	Start: 345.00, Finish: 350.00
+To Blood	Arrive: 350.00
+Doctor	345.00	345.00	350.00	None	0.00	
+Blood	350.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 146 Current Time: 350.00 
+Active Station: Doctor-0
+========== Patient ID: 00027 ==========
+At Doctor	Start: 350.00, Finish: 355.00
+To Blood	Arrive: 355.00
+Doctor	350.00	350.00	355.00	None	0.00	
+Blood	355.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 147 Current Time: 350.00 
+Active Station: Blood-0
+========== Patient ID: 00026 ==========
+At Blood	Start: 350.00, Finish: 355.34, Report: 385.34
+To Scan	Arrive: 355.34
+Doctor	345.00	345.00	350.00	None	0.00	
+Blood	350.00	350.00	355.34	385.34	0.00	
+Scan	355.34	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 148 Current Time: 351.02 
+Active Station: Blood-1
+========== Patient ID: 00126 ==========
+At Blood	Start: 351.02, Finish: 355.94, Report: 385.94
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	351.02	351.02	355.94	385.94	1.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 149 Current Time: 355.00 
+Active Station: Doctor-0
+========== Patient ID: 00028 ==========
+At Doctor	Start: 355.00, Finish: 360.00
+To Blood	Arrive: 360.00
+Doctor	355.00	355.00	360.00	None	0.00	
+Blood	360.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 150 Current Time: 355.34 
+Active Station: Blood-0
+========== Patient ID: 00027 ==========
+At Blood	Start: 355.34, Finish: 358.59, Report: 388.59
+To Scan	Arrive: 358.59
+Doctor	350.00	350.00	355.00	None	0.00	
+Blood	355.00	355.34	358.59	388.59	0.00	
+Scan	358.59	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 151 Current Time: 355.34 
+Active Station: Scan-0
+========== Patient ID: 00026 ==========
+At Scan	Start: 355.34, Finish: 366.15, Report: 366.15
+To Doctor	Arrive: 385.34
+Doctor	345.00	345.00	350.00	None	0.00	
+Blood	350.00	350.00	355.34	385.34	0.00	
+Scan	355.34	355.34	366.15	366.15	0.00	
+Revisit	385.34	None	None	None	None	
+--------------------------------------------------------
+Event Count: 152 Current Time: 358.59 
+Active Station: Scan-1
+========== Patient ID: 00027 ==========
+At Scan	Start: 358.59, Finish: 373.08, Report: 373.08
+To Doctor	Arrive: 388.59
+Doctor	350.00	350.00	355.00	None	0.00	
+Blood	355.00	355.34	358.59	388.59	0.00	
+Scan	358.59	358.59	373.08	373.08	1.00	
+Revisit	388.59	None	None	None	None	
+--------------------------------------------------------
+Event Count: 153 Current Time: 359.74 
+Active Station: Scan-2
+========== Patient ID: 00156 ==========
+At Scan	Start: 359.74, Finish: 372.78, Report: 372.78
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	None	None	None	None	None	
+Scan	359.74	359.74	372.78	372.78	2.00	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 154 Current Time: 360.00 
+Active Station: Doctor-0
+========== Patient ID: 00023 ==========
+At Doctor	Start: 360.00, Finish: 365.00
+ToGo Home	Arrive: N/A
+Doctor	305.00	305.00	310.00	None	0.00	
+Blood	310.00	310.00	315.70	345.70	0.00	
+Scan	None	None	None	None	None	
+Revisit	345.70	360.00	365.00	None	0.00	
+--------------------------------------------------------
+Event Count: 155 Current Time: 360.00 
+Active Station: Blood-0
+========== Patient ID: 00028 ==========
+At Blood	Start: 360.00, Finish: 363.03, Report: 393.03
+To Scan	Arrive: 363.03
+Doctor	355.00	355.00	360.00	None	0.00	
+Blood	360.00	360.00	363.03	393.03	0.00	
+Scan	363.03	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 156 Current Time: 365.00 
+Active Station: Doctor-0
+========== Patient ID: 00029 ==========
+At Doctor	Start: 365.00, Finish: 370.00
+To Scan	Arrive: 370.00
+Doctor	365.00	365.00	370.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	370.00	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 157 Current Time: 366.09 
+Active Station: Blood-0
+========== Patient ID: 00127 ==========
+At Blood	Start: 366.09, Finish: 369.40, Report: 399.40
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	366.09	366.09	369.40	399.40	0.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 158 Current Time: 366.15 
+Active Station: Scan-0
+========== Patient ID: 00028 ==========
+At Scan	Start: 366.15, Finish: 379.47, Report: 379.47
+To Doctor	Arrive: 393.03
+Doctor	355.00	355.00	360.00	None	0.00	
+Blood	360.00	360.00	363.03	393.03	0.00	
+Scan	363.03	366.15	379.47	379.47	0.00	
+Revisit	393.03	None	None	None	None	
+--------------------------------------------------------
+Event Count: 159 Current Time: 370.00 
+Active Station: Doctor-0
+========== Patient ID: 00030 ==========
+At Doctor	Start: 370.00, Finish: 375.00
+To Blood	Arrive: 375.00
+Doctor	370.00	370.00	375.00	None	0.00	
+Blood	375.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 160 Current Time: 372.78 
+Active Station: Scan-2
+========== Patient ID: 00029 ==========
+At Scan	Start: 372.78, Finish: 382.80, Report: 382.80
+To Doctor	Arrive: 382.80
+Doctor	365.00	365.00	370.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	370.00	372.78	382.80	382.80	2.00	
+Revisit	382.80	None	None	None	None	
+--------------------------------------------------------
+Event Count: 161 Current Time: 375.00 
+Active Station: Doctor-0
+========== Patient ID: 00031 ==========
+At Doctor	Start: 375.00, Finish: 380.00
+To Blood	Arrive: 380.00
+Doctor	375.00	375.00	380.00	None	0.00	
+Blood	380.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 162 Current Time: 375.00 
+Active Station: Blood-0
+========== Patient ID: 00030 ==========
+At Blood	Start: 375.00, Finish: 378.48, Report: 423.48
+To Doctor	Arrive: 423.48
+Doctor	370.00	370.00	375.00	None	0.00	
+Blood	375.00	375.00	378.48	423.48	0.00	
+Scan	None	None	None	None	None	
+Revisit	423.48	None	None	None	None	
+--------------------------------------------------------
+Event Count: 163 Current Time: 380.00 
+Active Station: Doctor-0
+========== Patient ID: 00024 ==========
+At Doctor	Start: 380.00, Finish: 385.00
+ToGo Home	Arrive: N/A
+Doctor	315.00	315.00	320.00	None	0.00	
+Blood	320.00	320.00	324.02	354.02	1.00	
+Scan	324.02	324.02	335.76	335.76	0.00	
+Revisit	354.02	380.00	385.00	None	0.00	
+--------------------------------------------------------
+Event Count: 164 Current Time: 380.00 
+Active Station: Blood-0
+========== Patient ID: 00031 ==========
+At Blood	Start: 380.00, Finish: 384.65, Report: 414.65
+To Scan	Arrive: 384.65
+Doctor	375.00	375.00	380.00	None	0.00	
+Blood	380.00	380.00	384.65	414.65	0.00	
+Scan	384.65	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 165 Current Time: 381.54 
+Active Station: Blood-1
+========== Patient ID: 00128 ==========
+At Blood	Start: 381.54, Finish: 386.61, Report: 416.61
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	381.54	381.54	386.61	416.61	1.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 166 Current Time: 384.65 
+Active Station: Scan-0
+========== Patient ID: 00031 ==========
+At Scan	Start: 384.65, Finish: 397.91, Report: 397.91
+To Doctor	Arrive: 414.65
+Doctor	375.00	375.00	380.00	None	0.00	
+Blood	380.00	380.00	384.65	414.65	0.00	
+Scan	384.65	384.65	397.91	397.91	0.00	
+Revisit	414.65	None	None	None	None	
+--------------------------------------------------------
+Event Count: 167 Current Time: 385.00 
+Active Station: Doctor-0
+========== Patient ID: 00032 ==========
+At Doctor	Start: 385.00, Finish: 390.00
+To Blood	Arrive: 390.00
+Doctor	385.00	385.00	390.00	None	0.00	
+Blood	390.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 168 Current Time: 386.15 
+Active Station: Scan-1
+========== Patient ID: 00157 ==========
+At Scan	Start: 386.15, Finish: 397.27, Report: 397.27
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	None	None	None	None	None	
+Scan	386.15	386.15	397.27	397.27	1.00	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 169 Current Time: 390.00 
+Active Station: Doctor-0
+========== Patient ID: 00025 ==========
+At Doctor	Start: 390.00, Finish: 395.00
+ToGo Home	Arrive: N/A
+Doctor	335.00	335.00	340.00	None	0.00	
+Blood	340.00	340.00	345.66	375.66	1.00	
+Scan	None	None	None	None	None	
+Revisit	375.66	390.00	395.00	None	0.00	
+--------------------------------------------------------
+Event Count: 170 Current Time: 390.00 
+Active Station: Blood-0
+========== Patient ID: 00032 ==========
+At Blood	Start: 390.00, Finish: 395.14, Report: 440.14
+To Scan	Arrive: 395.14
+Doctor	385.00	385.00	390.00	None	0.00	
+Blood	390.00	390.00	395.14	440.14	0.00	
+Scan	395.14	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 171 Current Time: 395.00 
+Active Station: Doctor-0
+========== Patient ID: 00026 ==========
+At Doctor	Start: 395.00, Finish: 400.00
+ToGo Home	Arrive: N/A
+Doctor	345.00	345.00	350.00	None	0.00	
+Blood	350.00	350.00	355.34	385.34	0.00	
+Scan	355.34	355.34	366.15	366.15	0.00	
+Revisit	385.34	395.00	400.00	None	0.00	
+--------------------------------------------------------
+Event Count: 172 Current Time: 395.14 
+Active Station: Scan-2
+========== Patient ID: 00032 ==========
+At Scan	Start: 395.14, Finish: 406.32, Report: 406.32
+To Doctor	Arrive: 440.14
+Doctor	385.00	385.00	390.00	None	0.00	
+Blood	390.00	390.00	395.14	440.14	0.00	
+Scan	395.14	395.14	406.32	406.32	2.00	
+Revisit	440.14	None	None	None	None	
+--------------------------------------------------------
+Event Count: 173 Current Time: 396.66 
+Active Station: Blood-0
+========== Patient ID: 00129 ==========
+At Blood	Start: 396.66, Finish: 400.64, Report: 430.64
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	396.66	396.66	400.64	430.64	0.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 174 Current Time: 400.00 
+Active Station: Doctor-0
+========== Patient ID: 00027 ==========
+At Doctor	Start: 400.00, Finish: 405.00
+ToGo Home	Arrive: N/A
+Doctor	350.00	350.00	355.00	None	0.00	
+Blood	355.00	355.34	358.59	388.59	0.00	
+Scan	358.59	358.59	373.08	373.08	1.00	
+Revisit	388.59	400.00	405.00	None	0.00	
+--------------------------------------------------------
+Event Count: 175 Current Time: 405.00 
+Active Station: Doctor-0
+========== Patient ID: 00028 ==========
+At Doctor	Start: 405.00, Finish: 410.00
+ToGo Home	Arrive: N/A
+Doctor	355.00	355.00	360.00	None	0.00	
+Blood	360.00	360.00	363.03	393.03	0.00	
+Scan	363.03	366.15	379.47	379.47	0.00	
+Revisit	393.03	405.00	410.00	None	0.00	
+--------------------------------------------------------
+Event Count: 176 Current Time: 410.00 
+Active Station: Doctor-0
+========== Patient ID: 00029 ==========
+At Doctor	Start: 410.00, Finish: 415.00
+ToGo Home	Arrive: N/A
+Doctor	365.00	365.00	370.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	370.00	372.78	382.80	382.80	2.00	
+Revisit	382.80	410.00	415.00	None	0.00	
+--------------------------------------------------------
+Event Count: 177 Current Time: 411.41 
+Active Station: Scan-0
+========== Patient ID: 00158 ==========
+At Scan	Start: 411.41, Finish: 425.14, Report: 425.14
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	None	None	None	None	None	
+Scan	411.41	411.41	425.14	425.14	0.00	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 178 Current Time: 413.65 
+Active Station: Blood-0
+========== Patient ID: 00130 ==========
+At Blood	Start: 413.65, Finish: 418.60, Report: 448.60
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	413.65	413.65	418.60	448.60	0.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 179 Current Time: 415.00 
+Active Station: Doctor-0
+========== Patient ID: 00033 ==========
+At Doctor	Start: 415.00, Finish: 420.00
+To Scan	Arrive: 420.00
+Doctor	415.00	415.00	420.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	420.00	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 180 Current Time: 420.00 
+Active Station: Doctor-0
+========== Patient ID: 00034 ==========
+At Doctor	Start: 420.00, Finish: 425.00
+To Scan	Arrive: 425.00
+Doctor	420.00	420.00	425.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	425.00	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 181 Current Time: 420.00 
+Active Station: Scan-1
+========== Patient ID: 00033 ==========
+At Scan	Start: 420.00, Finish: 434.25, Report: 434.25
+To Doctor	Arrive: 434.25
+Doctor	415.00	415.00	420.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	420.00	420.00	434.25	434.25	1.00	
+Revisit	434.25	None	None	None	None	
+--------------------------------------------------------
+Event Count: 182 Current Time: 425.00 
+Active Station: Doctor-0
+========== Patient ID: 00030 ==========
+At Doctor	Start: 425.00, Finish: 430.00
+ToGo Home	Arrive: N/A
+Doctor	370.00	370.00	375.00	None	0.00	
+Blood	375.00	375.00	378.48	423.48	0.00	
+Scan	None	None	None	None	None	
+Revisit	423.48	425.00	430.00	None	0.00	
+--------------------------------------------------------
+Event Count: 183 Current Time: 425.00 
+Active Station: Scan-2
+========== Patient ID: 00034 ==========
+At Scan	Start: 425.00, Finish: 438.29, Report: 438.29
+To Doctor	Arrive: 438.29
+Doctor	420.00	420.00	425.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	425.00	425.00	438.29	438.29	2.00	
+Revisit	438.29	None	None	None	None	
+--------------------------------------------------------
+Event Count: 184 Current Time: 429.62 
+Active Station: Blood-0
+========== Patient ID: 00131 ==========
+At Blood	Start: 429.62, Finish: 434.33, Report: 464.33
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	429.62	429.62	434.33	464.33	0.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 185 Current Time: 430.00 
+Active Station: Doctor-0
+========== Patient ID: 00031 ==========
+At Doctor	Start: 430.00, Finish: 435.00
+ToGo Home	Arrive: N/A
+Doctor	375.00	375.00	380.00	None	0.00	
+Blood	380.00	380.00	384.65	414.65	0.00	
+Scan	384.65	384.65	397.91	397.91	0.00	
+Revisit	414.65	430.00	435.00	None	0.00	
+--------------------------------------------------------
+Event Count: 186 Current Time: 435.00 
+Active Station: Doctor-0
+========== Patient ID: 00057 ==========
+At Doctor	Start: 435.00, Finish: 440.00
+To Scan	Arrive: 440.00
+Doctor	88.12	435.00	440.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	440.00	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 187 Current Time: 436.49 
+Active Station: Scan-0
+========== Patient ID: 00159 ==========
+At Scan	Start: 436.49, Finish: 446.96, Report: 446.96
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	None	None	None	None	None	
+Scan	436.49	436.49	446.96	446.96	0.00	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 188 Current Time: 440.00 
+Active Station: Doctor-0
+========== Patient ID: 00058 ==========
+At Doctor	Start: 440.00, Finish: 445.00
+To Blood	Arrive: 445.00
+Doctor	99.04	440.00	445.00	None	0.00	
+Blood	445.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 189 Current Time: 440.00 
+Active Station: Scan-1
+========== Patient ID: 00057 ==========
+At Scan	Start: 440.00, Finish: 451.84, Report: 451.84
+To Doctor	Arrive: 451.84
+Doctor	88.12	435.00	440.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	440.00	440.00	451.84	451.84	1.00	
+Revisit	451.84	None	None	None	None	
+--------------------------------------------------------
+Event Count: 190 Current Time: 445.00 
+Active Station: Doctor-0
+========== Patient ID: 00035 ==========
+At Doctor	Start: 445.00, Finish: 450.00
+To Blood	Arrive: 450.00
+Doctor	445.00	445.00	450.00	None	0.00	
+Blood	450.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 191 Current Time: 445.00 
+Active Station: Blood-0
+========== Patient ID: 00058 ==========
+At Blood	Start: 445.00, Finish: 448.80, Report: 478.80
+To Scan	Arrive: 448.80
+Doctor	99.04	440.00	445.00	None	0.00	
+Blood	445.00	445.00	448.80	478.80	0.00	
+Scan	448.80	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 192 Current Time: 445.03 
+Active Station: Blood-1
+========== Patient ID: 00132 ==========
+At Blood	Start: 445.03, Finish: 448.76, Report: 478.76
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	445.03	445.03	448.76	478.76	1.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 193 Current Time: 448.80 
+Active Station: Scan-0
+========== Patient ID: 00058 ==========
+At Scan	Start: 448.80, Finish: 463.66, Report: 463.66
+To Doctor	Arrive: 478.80
+Doctor	99.04	440.00	445.00	None	0.00	
+Blood	445.00	445.00	448.80	478.80	0.00	
+Scan	448.80	448.80	463.66	463.66	0.00	
+Revisit	478.80	None	None	None	None	
+--------------------------------------------------------
+Event Count: 194 Current Time: 450.00 
+Active Station: Doctor-0
+========== Patient ID: 00032 ==========
+At Doctor	Start: 450.00, Finish: 455.00
+ToGo Home	Arrive: N/A
+Doctor	385.00	385.00	390.00	None	0.00	
+Blood	390.00	390.00	395.14	440.14	0.00	
+Scan	395.14	395.14	406.32	406.32	2.00	
+Revisit	440.14	450.00	455.00	None	0.00	
+--------------------------------------------------------
+Event Count: 195 Current Time: 450.00 
+Active Station: Blood-0
+========== Patient ID: 00035 ==========
+At Blood	Start: 450.00, Finish: 454.18, Report: 499.18
+To Scan	Arrive: 454.18
+Doctor	445.00	445.00	450.00	None	0.00	
+Blood	450.00	450.00	454.18	499.18	0.00	
+Scan	454.18	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 196 Current Time: 454.18 
+Active Station: Scan-1
+========== Patient ID: 00035 ==========
+At Scan	Start: 454.18, Finish: 468.64, Report: 468.64
+To Doctor	Arrive: 499.18
+Doctor	445.00	445.00	450.00	None	0.00	
+Blood	450.00	450.00	454.18	499.18	0.00	
+Scan	454.18	454.18	468.64	468.64	1.00	
+Revisit	499.18	None	None	None	None	
+--------------------------------------------------------
+Event Count: 197 Current Time: 455.00 
+Active Station: Doctor-0
+========== Patient ID: 00036 ==========
+At Doctor	Start: 455.00, Finish: 460.00
+To Blood	Arrive: 460.00
+Doctor	455.00	455.00	460.00	None	0.00	
+Blood	460.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 198 Current Time: 460.00 
+Active Station: Doctor-0
+========== Patient ID: 00033 ==========
+At Doctor	Start: 460.00, Finish: 465.00
+ToGo Home	Arrive: N/A
+Doctor	415.00	415.00	420.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	420.00	420.00	434.25	434.25	1.00	
+Revisit	434.25	460.00	465.00	None	0.00	
+--------------------------------------------------------
+Event Count: 199 Current Time: 460.00 
+Active Station: Blood-0
+========== Patient ID: 00036 ==========
+At Blood	Start: 460.00, Finish: 464.89, Report: 494.89
+To Scan	Arrive: 464.89
+Doctor	455.00	455.00	460.00	None	0.00	
+Blood	460.00	460.00	464.89	494.89	0.00	
+Scan	464.89	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 200 Current Time: 460.09 
+Active Station: Blood-1
+========== Patient ID: 00133 ==========
+At Blood	Start: 460.09, Finish: 465.48, Report: 495.48
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	460.09	460.09	465.48	495.48	1.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 201 Current Time: 461.83 
+Active Station: Scan-2
+========== Patient ID: 00160 ==========
+At Scan	Start: 461.83, Finish: 474.35, Report: 474.35
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	None	None	None	None	None	
+Scan	461.83	461.83	474.35	474.35	2.00	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 202 Current Time: 464.89 
+Active Station: Scan-0
+========== Patient ID: 00036 ==========
+At Scan	Start: 464.89, Finish: 477.78, Report: 477.78
+To Doctor	Arrive: 494.89
+Doctor	455.00	455.00	460.00	None	0.00	
+Blood	460.00	460.00	464.89	494.89	0.00	
+Scan	464.89	464.89	477.78	477.78	0.00	
+Revisit	494.89	None	None	None	None	
+--------------------------------------------------------
+Event Count: 203 Current Time: 465.00 
+Active Station: Doctor-0
+========== Patient ID: 00037 ==========
+At Doctor	Start: 465.00, Finish: 470.00
+To Scan	Arrive: 470.00
+Doctor	465.00	465.00	470.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	470.00	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 204 Current Time: 470.00 
+Active Station: Doctor-0
+========== Patient ID: 00038 ==========
+At Doctor	Start: 470.00, Finish: 475.00
+To Blood	Arrive: 475.00
+Doctor	470.00	470.00	475.00	None	0.00	
+Blood	475.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 205 Current Time: 470.00 
+Active Station: Scan-1
+========== Patient ID: 00037 ==========
+At Scan	Start: 470.00, Finish: 482.46, Report: 482.46
+To Doctor	Arrive: 482.46
+Doctor	465.00	465.00	470.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	470.00	470.00	482.46	482.46	1.00	
+Revisit	482.46	None	None	None	None	
+--------------------------------------------------------
+Event Count: 206 Current Time: 475.00 
+Active Station: Doctor-0
+========== Patient ID: 00039 ==========
+At Doctor	Start: 475.00, Finish: 480.00
+To Blood	Arrive: 480.00
+Doctor	475.00	475.00	480.00	None	0.00	
+Blood	480.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 207 Current Time: 475.00 
+Active Station: Blood-0
+========== Patient ID: 00038 ==========
+At Blood	Start: 475.00, Finish: 478.59, Report: 508.59
+To Scan	Arrive: 478.59
+Doctor	470.00	470.00	475.00	None	0.00	
+Blood	475.00	475.00	478.59	508.59	0.00	
+Scan	478.59	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 208 Current Time: 475.46 
+Active Station: Blood-1
+========== Patient ID: 00134 ==========
+At Blood	Start: 475.46, Finish: 480.63, Report: 510.63
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	475.46	475.46	480.63	510.63	1.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 209 Current Time: 478.59 
+Active Station: Scan-0
+========== Patient ID: 00038 ==========
+At Scan	Start: 478.59, Finish: 489.99, Report: 489.99
+To Doctor	Arrive: 508.59
+Doctor	470.00	470.00	475.00	None	0.00	
+Blood	475.00	475.00	478.59	508.59	0.00	
+Scan	478.59	478.59	489.99	489.99	0.00	
+Revisit	508.59	None	None	None	None	
+--------------------------------------------------------
+Event Count: 210 Current Time: 480.00 
+Active Station: Doctor-0
+========== Patient ID: 00040 ==========
+At Doctor	Start: 480.00, Finish: 485.00
+To Blood	Arrive: 485.00
+Doctor	480.00	480.00	485.00	None	0.00	
+Blood	485.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 211 Current Time: 480.00 
+Active Station: Blood-0
+========== Patient ID: 00039 ==========
+At Blood	Start: 480.00, Finish: 483.07, Report: 513.07
+To Scan	Arrive: 483.07
+Doctor	475.00	475.00	480.00	None	0.00	
+Blood	480.00	480.00	483.07	513.07	0.00	
+Scan	483.07	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 212 Current Time: 483.07 
+Active Station: Scan-1
+========== Patient ID: 00039 ==========
+At Scan	Start: 483.07, Finish: 496.30, Report: 496.30
+To Doctor	Arrive: 513.07
+Doctor	475.00	475.00	480.00	None	0.00	
+Blood	480.00	480.00	483.07	513.07	0.00	
+Scan	483.07	483.07	496.30	496.30	1.00	
+Revisit	513.07	None	None	None	None	
+--------------------------------------------------------
+Event Count: 213 Current Time: 485.00 
+Active Station: Doctor-0
+========== Patient ID: 00034 ==========
+At Doctor	Start: 485.00, Finish: 490.00
+ToGo Home	Arrive: N/A
+Doctor	420.00	420.00	425.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	425.00	425.00	438.29	438.29	2.00	
+Revisit	438.29	485.00	490.00	None	0.00	
+--------------------------------------------------------
+Event Count: 214 Current Time: 485.00 
+Active Station: Blood-0
+========== Patient ID: 00040 ==========
+At Blood	Start: 485.00, Finish: 488.53, Report: 518.53
+To Scan	Arrive: 488.53
+Doctor	480.00	480.00	485.00	None	0.00	
+Blood	485.00	485.00	488.53	518.53	0.00	
+Scan	488.53	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 215 Current Time: 487.01 
+Active Station: Scan-2
+========== Patient ID: 00161 ==========
+At Scan	Start: 487.01, Finish: 501.71, Report: 501.71
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	None	None	None	None	None	
+Scan	487.01	487.01	501.71	501.71	2.00	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 216 Current Time: 489.99 
+Active Station: Scan-0
+========== Patient ID: 00040 ==========
+At Scan	Start: 489.99, Finish: 504.76, Report: 504.76
+To Doctor	Arrive: 518.53
+Doctor	480.00	480.00	485.00	None	0.00	
+Blood	485.00	485.00	488.53	518.53	0.00	
+Scan	488.53	489.99	504.76	504.76	0.00	
+Revisit	518.53	None	None	None	None	
+--------------------------------------------------------
+Event Count: 217 Current Time: 490.00 
+Active Station: Doctor-0
+========== Patient ID: 00041 ==========
+At Doctor	Start: 490.00, Finish: 495.00
+To Blood	Arrive: 495.00
+Doctor	490.00	490.00	495.00	None	0.00	
+Blood	495.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 218 Current Time: 490.86 
+Active Station: Blood-0
+========== Patient ID: 00135 ==========
+At Blood	Start: 490.86, Finish: 496.60, Report: 541.60
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	490.86	490.86	496.60	541.60	0.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 219 Current Time: 495.00 
+Active Station: Doctor-0
+========== Patient ID: 00042 ==========
+At Doctor	Start: 495.00, Finish: 500.00
+To Blood	Arrive: 500.00
+Doctor	495.00	495.00	500.00	None	0.00	
+Blood	500.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 220 Current Time: 495.00 
+Active Station: Blood-1
+========== Patient ID: 00041 ==========
+At Blood	Start: 495.00, Finish: 499.11, Report: 544.11
+To Doctor	Arrive: 544.11
+Doctor	490.00	490.00	495.00	None	0.00	
+Blood	495.00	495.00	499.11	544.11	1.00	
+Scan	None	None	None	None	None	
+Revisit	544.11	None	None	None	None	
+--------------------------------------------------------
+Event Count: 221 Current Time: 500.00 
+Active Station: Doctor-0
+========== Patient ID: 00057 ==========
+At Doctor	Start: 500.00, Finish: 505.00
+ToGo Home	Arrive: N/A
+Doctor	88.12	435.00	440.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	440.00	440.00	451.84	451.84	1.00	
+Revisit	451.84	500.00	505.00	None	0.00	
+--------------------------------------------------------
+Event Count: 222 Current Time: 500.00 
+Active Station: Blood-0
+========== Patient ID: 00042 ==========
+At Blood	Start: 500.00, Finish: 503.05, Report: 548.05
+To Scan	Arrive: 503.05
+Doctor	495.00	495.00	500.00	None	0.00	
+Blood	500.00	500.00	503.05	548.05	0.00	
+Scan	503.05	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 223 Current Time: 503.05 
+Active Station: Scan-1
+========== Patient ID: 00042 ==========
+At Scan	Start: 503.05, Finish: 517.69, Report: 517.69
+To Doctor	Arrive: 548.05
+Doctor	495.00	495.00	500.00	None	0.00	
+Blood	500.00	500.00	503.05	548.05	0.00	
+Scan	503.05	503.05	517.69	517.69	1.00	
+Revisit	548.05	None	None	None	None	
+--------------------------------------------------------
+Event Count: 224 Current Time: 505.00 
+Active Station: Doctor-0
+========== Patient ID: 00058 ==========
+At Doctor	Start: 505.00, Finish: 510.00
+ToGo Home	Arrive: N/A
+Doctor	99.04	440.00	445.00	None	0.00	
+Blood	445.00	445.00	448.80	478.80	0.00	
+Scan	448.80	448.80	463.66	463.66	0.00	
+Revisit	478.80	505.00	510.00	None	0.00	
+--------------------------------------------------------
+Event Count: 225 Current Time: 507.17 
+Active Station: Blood-0
+========== Patient ID: 00136 ==========
+At Blood	Start: 507.17, Finish: 511.45, Report: 541.45
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	507.17	507.17	511.45	541.45	0.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 226 Current Time: 510.00 
+Active Station: Doctor-0
+========== Patient ID: 00043 ==========
+At Doctor	Start: 510.00, Finish: 515.00
+To Scan	Arrive: 515.00
+Doctor	510.00	510.00	515.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	515.00	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 227 Current Time: 514.67 
+Active Station: Scan-0
+========== Patient ID: 00162 ==========
+At Scan	Start: 514.67, Finish: 529.50, Report: 529.50
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	None	None	None	None	None	
+Scan	514.67	514.67	529.50	529.50	0.00	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 228 Current Time: 515.00 
+Active Station: Doctor-0
+========== Patient ID: 00035 ==========
+At Doctor	Start: 515.00, Finish: 520.00
+ToGo Home	Arrive: N/A
+Doctor	445.00	445.00	450.00	None	0.00	
+Blood	450.00	450.00	454.18	499.18	0.00	
+Scan	454.18	454.18	468.64	468.64	1.00	
+Revisit	499.18	515.00	520.00	None	0.00	
+--------------------------------------------------------
+Event Count: 229 Current Time: 515.00 
+Active Station: Scan-2
+========== Patient ID: 00043 ==========
+At Scan	Start: 515.00, Finish: 529.82, Report: 529.82
+To Doctor	Arrive: 529.82
+Doctor	510.00	510.00	515.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	515.00	515.00	529.82	529.82	2.00	
+Revisit	529.82	None	None	None	None	
+--------------------------------------------------------
+Event Count: 230 Current Time: 520.00 
+Active Station: Doctor-0
+========== Patient ID: 00036 ==========
+At Doctor	Start: 520.00, Finish: 525.00
+ToGo Home	Arrive: N/A
+Doctor	455.00	455.00	460.00	None	0.00	
+Blood	460.00	460.00	464.89	494.89	0.00	
+Scan	464.89	464.89	477.78	477.78	0.00	
+Revisit	494.89	520.00	525.00	None	0.00	
+--------------------------------------------------------
+Event Count: 231 Current Time: 523.18 
+Active Station: Blood-0
+========== Patient ID: 00137 ==========
+At Blood	Start: 523.18, Finish: 528.74, Report: 558.74
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	523.18	523.18	528.74	558.74	0.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 232 Current Time: 525.00 
+Active Station: Doctor-0
+========== Patient ID: 00037 ==========
+At Doctor	Start: 525.00, Finish: 530.00
+ToGo Home	Arrive: N/A
+Doctor	465.00	465.00	470.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	470.00	470.00	482.46	482.46	1.00	
+Revisit	482.46	525.00	530.00	None	0.00	
+--------------------------------------------------------
+Event Count: 233 Current Time: 530.00 
+Active Station: Doctor-0
+========== Patient ID: 00044 ==========
+At Doctor	Start: 530.00, Finish: 535.00
+To Blood	Arrive: 535.00
+Doctor	530.00	530.00	535.00	None	0.00	
+Blood	535.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 234 Current Time: 535.00 
+Active Station: Doctor-0
+========== Patient ID: 00038 ==========
+At Doctor	Start: 535.00, Finish: 540.00
+ToGo Home	Arrive: N/A
+Doctor	470.00	470.00	475.00	None	0.00	
+Blood	475.00	475.00	478.59	508.59	0.00	
+Scan	478.59	478.59	489.99	489.99	0.00	
+Revisit	508.59	535.00	540.00	None	0.00	
+--------------------------------------------------------
+Event Count: 235 Current Time: 535.00 
+Active Station: Blood-0
+========== Patient ID: 00044 ==========
+At Blood	Start: 535.00, Finish: 538.88, Report: 583.88
+To Scan	Arrive: 538.88
+Doctor	530.00	530.00	535.00	None	0.00	
+Blood	535.00	535.00	538.88	583.88	0.00	
+Scan	538.88	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 236 Current Time: 538.88 
+Active Station: Scan-0
+========== Patient ID: 00044 ==========
+At Scan	Start: 538.88, Finish: 550.81, Report: 550.81
+To Doctor	Arrive: 583.88
+Doctor	530.00	530.00	535.00	None	0.00	
+Blood	535.00	535.00	538.88	583.88	0.00	
+Scan	538.88	538.88	550.81	550.81	0.00	
+Revisit	583.88	None	None	None	None	
+--------------------------------------------------------
+Event Count: 237 Current Time: 540.00 
+Active Station: Doctor-0
+========== Patient ID: 00039 ==========
+At Doctor	Start: 540.00, Finish: 545.00
+ToGo Home	Arrive: N/A
+Doctor	475.00	475.00	480.00	None	0.00	
+Blood	480.00	480.00	483.07	513.07	0.00	
+Scan	483.07	483.07	496.30	496.30	1.00	
+Revisit	513.07	540.00	545.00	None	0.00	
+--------------------------------------------------------
+Event Count: 238 Current Time: 540.36 
+Active Station: Blood-0
+========== Patient ID: 00138 ==========
+At Blood	Start: 540.36, Finish: 545.92, Report: 590.92
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	540.36	540.36	545.92	590.92	0.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 239 Current Time: 541.32 
+Active Station: Scan-1
+========== Patient ID: 00163 ==========
+At Scan	Start: 541.32, Finish: 552.90, Report: 552.90
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	None	None	None	None	None	
+Scan	541.32	541.32	552.90	552.90	1.00	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 240 Current Time: 545.00 
+Active Station: Doctor-0
+========== Patient ID: 00040 ==========
+At Doctor	Start: 545.00, Finish: 550.00
+ToGo Home	Arrive: N/A
+Doctor	480.00	480.00	485.00	None	0.00	
+Blood	485.00	485.00	488.53	518.53	0.00	
+Scan	488.53	489.99	504.76	504.76	0.00	
+Revisit	518.53	545.00	550.00	None	0.00	
+--------------------------------------------------------
+Event Count: 241 Current Time: 550.00 
+Active Station: Doctor-0
+========== Patient ID: 00045 ==========
+At Doctor	Start: 550.00, Finish: 555.00
+To Scan	Arrive: 555.00
+Doctor	550.00	550.00	555.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	555.00	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 242 Current Time: 555.00 
+Active Station: Doctor-0
+========== Patient ID: 00041 ==========
+At Doctor	Start: 555.00, Finish: 560.00
+ToGo Home	Arrive: N/A
+Doctor	490.00	490.00	495.00	None	0.00	
+Blood	495.00	495.00	499.11	544.11	1.00	
+Scan	None	None	None	None	None	
+Revisit	544.11	555.00	560.00	None	0.00	
+--------------------------------------------------------
+Event Count: 243 Current Time: 555.00 
+Active Station: Scan-0
+========== Patient ID: 00045 ==========
+At Scan	Start: 555.00, Finish: 565.85, Report: 565.85
+To Doctor	Arrive: 565.85
+Doctor	550.00	550.00	555.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	555.00	555.00	565.85	565.85	0.00	
+Revisit	565.85	None	None	None	None	
+--------------------------------------------------------
+Event Count: 244 Current Time: 556.00 
+Active Station: Blood-0
+========== Patient ID: 00139 ==========
+At Blood	Start: 556.00, Finish: 560.67, Report: 590.67
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	556.00	556.00	560.67	590.67	0.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 245 Current Time: 560.00 
+Active Station: Doctor-0
+========== Patient ID: 00046 ==========
+At Doctor	Start: 560.00, Finish: 565.00
+To Scan	Arrive: 565.00
+Doctor	560.00	560.00	565.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	565.00	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 246 Current Time: 565.00 
+Active Station: Doctor-0
+========== Patient ID: 00042 ==========
+At Doctor	Start: 565.00, Finish: 570.00
+ToGo Home	Arrive: N/A
+Doctor	495.00	495.00	500.00	None	0.00	
+Blood	500.00	500.00	503.05	548.05	0.00	
+Scan	503.05	503.05	517.69	517.69	1.00	
+Revisit	548.05	565.00	570.00	None	0.00	
+--------------------------------------------------------
+Event Count: 247 Current Time: 565.00 
+Active Station: Scan-1
+========== Patient ID: 00046 ==========
+At Scan	Start: 565.00, Finish: 579.68, Report: 579.68
+To Doctor	Arrive: 579.68
+Doctor	560.00	560.00	565.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	565.00	565.00	579.68	579.68	1.00	
+Revisit	579.68	None	None	None	None	
+--------------------------------------------------------
+Event Count: 248 Current Time: 567.32 
+Active Station: Scan-0
+========== Patient ID: 00164 ==========
+At Scan	Start: 567.32, Finish: 580.80, Report: 580.80
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	None	None	None	None	None	
+Scan	567.32	567.32	580.80	580.80	0.00	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 249 Current Time: 570.00 
+Active Station: Doctor-0
+========== Patient ID: 00047 ==========
+At Doctor	Start: 570.00, Finish: 575.00
+To Blood	Arrive: 575.00
+Doctor	570.00	570.00	575.00	None	0.00	
+Blood	575.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 250 Current Time: 571.13 
+Active Station: Blood-0
+========== Patient ID: 00140 ==========
+At Blood	Start: 571.13, Finish: 575.84, Report: 605.84
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	571.13	571.13	575.84	605.84	0.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 251 Current Time: 575.00 
+Active Station: Doctor-0
+========== Patient ID: 00043 ==========
+At Doctor	Start: 575.00, Finish: 580.00
+ToGo Home	Arrive: N/A
+Doctor	510.00	510.00	515.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	515.00	515.00	529.82	529.82	2.00	
+Revisit	529.82	575.00	580.00	None	0.00	
+--------------------------------------------------------
+Event Count: 252 Current Time: 575.00 
+Active Station: Blood-1
+========== Patient ID: 00047 ==========
+At Blood	Start: 575.00, Finish: 578.29, Report: 623.29
+To Scan	Arrive: 578.29
+Doctor	570.00	570.00	575.00	None	0.00	
+Blood	575.00	575.00	578.29	623.29	1.00	
+Scan	578.29	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 253 Current Time: 578.29 
+Active Station: Scan-2
+========== Patient ID: 00047 ==========
+At Scan	Start: 578.29, Finish: 591.37, Report: 591.37
+To Doctor	Arrive: 623.29
+Doctor	570.00	570.00	575.00	None	0.00	
+Blood	575.00	575.00	578.29	623.29	1.00	
+Scan	578.29	578.29	591.37	591.37	2.00	
+Revisit	623.29	None	None	None	None	
+--------------------------------------------------------
+Event Count: 254 Current Time: 580.00 
+Active Station: Doctor-0
+========== Patient ID: 00048 ==========
+At Doctor	Start: 580.00, Finish: 585.00
+To Blood	Arrive: 585.00
+Doctor	580.00	580.00	585.00	None	0.00	
+Blood	585.00	None	None	None	None	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 255 Current Time: 585.00 
+Active Station: Doctor-0
+========== Patient ID: 00044 ==========
+At Doctor	Start: 585.00, Finish: 590.00
+ToGo Home	Arrive: N/A
+Doctor	530.00	530.00	535.00	None	0.00	
+Blood	535.00	535.00	538.88	583.88	0.00	
+Scan	538.88	538.88	550.81	550.81	0.00	
+Revisit	583.88	585.00	590.00	None	0.00	
+--------------------------------------------------------
+Event Count: 256 Current Time: 585.00 
+Active Station: Blood-0
+========== Patient ID: 00048 ==========
+At Blood	Start: 585.00, Finish: 590.97, Report: 620.97
+To Scan	Arrive: 590.97
+Doctor	580.00	580.00	585.00	None	0.00	
+Blood	585.00	585.00	590.97	620.97	0.00	
+Scan	590.97	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 257 Current Time: 587.38 
+Active Station: Blood-1
+========== Patient ID: 00141 ==========
+At Blood	Start: 587.38, Finish: 590.80, Report: 620.80
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	587.38	587.38	590.80	620.80	1.00	
+Scan	None	None	None	None	None	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 258 Current Time: 590.00 
+Active Station: Doctor-0
+========== Patient ID: 00045 ==========
+At Doctor	Start: 590.00, Finish: 595.00
+ToGo Home	Arrive: N/A
+Doctor	550.00	550.00	555.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	555.00	555.00	565.85	565.85	0.00	
+Revisit	565.85	590.00	595.00	None	0.00	
+--------------------------------------------------------
+Event Count: 259 Current Time: 590.97 
+Active Station: Scan-0
+========== Patient ID: 00048 ==========
+At Scan	Start: 590.97, Finish: 603.56, Report: 603.56
+To Doctor	Arrive: 620.97
+Doctor	580.00	580.00	585.00	None	0.00	
+Blood	585.00	585.00	590.97	620.97	0.00	
+Scan	590.97	590.97	603.56	603.56	0.00	
+Revisit	620.97	None	None	None	None	
+--------------------------------------------------------
+Event Count: 260 Current Time: 594.37 
+Active Station: Scan-1
+========== Patient ID: 00165 ==========
+At Scan	Start: 594.37, Finish: 608.76, Report: 608.76
+To Go Home	Arrive: N/A
+Doctor	None	None	None	None	None	
+Blood	None	None	None	None	None	
+Scan	594.37	594.37	608.76	608.76	1.00	
+Revisit	None	None	None	None	None	
+--------------------------------------------------------
+Event Count: 261 Current Time: 595.00 
+Active Station: Doctor-0
+========== Patient ID: 00049 ==========
+At Doctor	Start: 595.00, Finish: 600.00
+To Scan	Arrive: 600.00
+Doctor	595.00	595.00	600.00	None	0.00	
+Blood	None	None	None	None	None	
+Scan	600.00	None	None	None	None	
 Revisit	None	None	None	None	None	

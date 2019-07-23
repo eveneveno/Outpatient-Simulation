@@ -5,6 +5,7 @@ from Serve_Place import *
 import numpy as np
 import random
 import pdb
+import prettytable as pt
 
 from utils import parser
 args = parser.parse_args()
@@ -18,11 +19,7 @@ num_node           = args.num_node
 # trans_prob
 trans_prob = H.trans_prob
 walk_time = H.walk_time
-#################################################
-# Mode MUTE: print some points
-MUTE = False
-RECORD = True
-#################################################
+
 
 class Simulation(object):
     def __init__(self, num_node, trans_prob, walk_time):
@@ -38,6 +35,8 @@ class Simulation(object):
         self.cusum_prob = np.cumsum(trans_prob, axis=1)
         self.walk_time = walk_time
 
+        self.wait_time = [[],[],[],[]]
+
     def run(self):
 
         txt_file = open("./result/events.txt", "w")
@@ -51,9 +50,9 @@ class Simulation(object):
             patient = self.waiting_place[type].send_patient()
             assert isinstance(patient, Patient)
             
-            if not MUTE:
+            if not H.MUTE:
                 H.print_update(H.Red, count, type, id)
-            if RECORD:
+            if H.RECORD:
                 H.write_update(count, type, id, txt_file)
 
             # operate next
@@ -81,14 +80,14 @@ class Simulation(object):
                     patient.time[TO, 0] = patient.time[type, 2] + self.walk_time[type, TO]
                     self.waiting_place[TO].add_patient(patient)
 
-            if not MUTE: 
+            if not H.MUTE: 
                 H.print_transit(H.Yellow, TO, patient, type)  
-            if RECORD:
+            if H.RECORD:
                 H.write_transit(TO, patient, type, txt_file)
             count += 1
-            if not MUTE:
+            if not H.MUTE:
                 patient.print_info()
-            if RECORD:
+            if H.RECORD:
                 H.write_info(patient, txt_file)
             
     # In all service and doctor (including busy servers, find min(all servers' max(finish_time, expected_time))
@@ -113,7 +112,23 @@ class Simulation(object):
                 idx = i
         assert M >= 0
         return idx
+
+    def calculate_waiting(self):
+        for patient in H.all_patient:
+            for i in range(patient.time.shape[0]):
+                service = patient.time[i]
+                if service[1] != None and service[0] != None:
+                    self.wait_time[i].append(service[1]-service[0])
         
+        tb = pt.PrettyTable()
+        print(H.Yellow+"---Waiting Performance - Sim End {} - Schedule Occupancy {}---".format(H.SIM_END,args.p_showup)+H.Clear)
+        tb.field_names = ["Type","Clinic", "Blood", "Scan", "Revisit"]
+        tb.add_row(["Population"]+[len(wait) for wait in self.wait_time])
+        tb.add_row(["Total Waiting"]+[round(sum(wait),5) for wait in self.wait_time])
+        tb.add_row(["Average Waiting"]+[round(sum(wait)/len(wait),5) for wait in self.wait_time])
+        tb.align = 'l'
+        print(tb)
+
 if __name__ == "__main__":
 
     # simuation setting
@@ -121,6 +136,8 @@ if __name__ == "__main__":
     
     # run simulatinon 
     sim.run()
+    
+    sim.calculate_waiting()
 
     # save .csv records for each station
     H.Visualize(H.SAVE)
